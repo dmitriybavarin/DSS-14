@@ -1,6 +1,5 @@
+
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -9,14 +8,16 @@
             "type": "shell",
             "args": [
                 "build",
-                "/property:GenerateFullPaths=true", // Ask dotnet build to generate full paths for file names.
-                "/consoleloggerparameters:'ForceNoAlign;NoSummary'" // Do not generate summary otherwise it leads to duplicate errors in Problems panel
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:ForceNoAlign;NoSummary"
             ],
             "group": {
-                "kind": "build"
+                "kind": "build",
+                "isDefault": true
             },
             "presentation": {
-                "reveal": "silent"
+                "reveal": "silent",
+                "panel": "shared"
             },
             "problemMatcher": "$msCompile",
             "runOptions": {
@@ -24,17 +25,45 @@
             }
         },
         {
+            "label": "Собрать → Запустить локальный сервер",
+            "dependsOn": [
+                "build"
+            ],
+            "dependsOrder": "sequence",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "run",
+                "--no-build",
+                "--project",
+                "${workspaceFolder}/Content.Server/Content.Server.csproj"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": false
+            },
+            "problemMatcher": [],
+            "runOptions": {
+                "instanceLimit": 1
+            }
+        },
+        {
             "label": "build (C# Dev Kit)",
-            "detail": "needs C# Dev Kit extention. use the (build) task instead if you dont have the extention.",
-            "type": "dotnet",
-            "task": "build",
+            "detail": "Requires the C# Dev Kit extension.",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build"
+            ],
             "icon": {
                 "id": "build",
                 "color": "terminal.ansiBlue"
             },
-            "group": {
-                "kind": "build"
-            },
+            "group": "build",
             "presentation": {
                 "reveal": "silent"
             },
@@ -51,7 +80,7 @@
                 "build",
                 "${workspaceFolder}/Content.YAMLLinter/Content.YAMLLinter.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:'ForceNoAlign;NoSummary'"
+                "/consoleloggerparameters:ForceNoAlign;NoSummary"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -68,9 +97,7 @@
                 "--",
                 "NUnit.ConsoleOut=0"
             ],
-            "group": {
-                "kind": "test"
-            },
+            "group": "test",
             "presentation": {
                 "reveal": "silent"
             },
@@ -91,9 +118,7 @@
                 "NUnit.MapWarningTo=Failed.ConsoleOut=0",
                 "NUnit.MapWarningTo=Failed"
             ],
-            "group": {
-                "kind": "test"
-            },
+            "group": "test",
             "presentation": {
                 "reveal": "silent"
             },
