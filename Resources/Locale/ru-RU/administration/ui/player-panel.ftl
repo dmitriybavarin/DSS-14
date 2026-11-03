@@ -1,0 +1,27 @@
+player-panel-title = Информация об игроке {$player}
+player-panel-username = Имя пользователя: {$player}
+player-panel-whitelisted = В белом списке:
+player-panel-bans = Всего блокировок: {$totalBans}
+player-panel-rolebans = Всего блокировок ролей: {$totalRoleBans}
+player-panel-notes = Всего заметок: {$totalNotes}
+player-panel-playtime = Общее игровое время: {$days}д:{$hours}ч:{$minutes}м
+player-panel-shared-connections = Общие подключения: {$sharedConnections}
+player-panel-trust-score = Уровень доверия: {TOSTRING($trustScore, "P0")}
+player-panel-account-creation = Дата создания аккаунта: {TOSTRING($date, "yyyy-MM-dd")}
+
+player-panel-copy-username = Копировать
+player-panel-show-notes = Заметки
+player-panel-show-bans = Показать блокировки
+player-panel-help = AHelp
+player-panel-freeze-and-mute = Заморозить и заглушить
+player-panel-freeze = Заморозить
+player-panel-unfreeze = Разморозить
+player-panel-kick = Исключить
+player-panel-ban = Заблокировать
+player-panel-logs = Логи
+player-panel-delete = Удалить
+player-panel-rejuvenate = Омолодить
+player-panel-false = Нет
+player-panel-true = Да
+player-panel-follow = Следовать
+player-panel-camera = Камера

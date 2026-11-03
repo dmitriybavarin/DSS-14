@@ -1,0 +1,12 @@
+advertisement-smite-1 = «СМАЙТ»! Покончите с жаждой!
+advertisement-smite-2 = Потусторонний взрыв лимона и лайма!
+advertisement-smite-3 = Продано более миллиона напитков!
+advertisement-smite-4 = «СМАЙТ»! Бросьте 2d8 на ВКУС.
+advertisement-smite-5 = «СМАЙТ»! Давайте разберёмся с бумажной работой!
+advertisement-smite-6 = Уборщик что-то против вас имеет!
+advertisement-smite-7 = «СМАЙТ»! От него вы не опьянеете вусмерть.
+advertisement-smite-8 = Время лимона и лайма!
+thankyou-smite-1 = «СМАЙТ» творит справедливость!
+thankyou-smite-2 = Вы ТОЧНО хотели лимон и лайм!
+thankyou-smite-3 = В офисе не поймут, что на них обрушилось.
+thankyou-smite-4 = Изгоните жажду!

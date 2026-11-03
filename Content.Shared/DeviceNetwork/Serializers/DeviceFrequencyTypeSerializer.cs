@@ -5,6 +5,7 @@ using Robust.Shared.Serialization.Manager;
 using Robust.Shared.Serialization.Markdown.Validation;
 using Robust.Shared.Serialization.Markdown.Value;
 using Robust.Shared.Serialization.TypeSerializers.Interfaces;
+using System.Globalization;
 
 namespace Content.Shared.DeviceNetwork.Serializers;
 
@@ -13,25 +14,38 @@ public sealed partial class DeviceFrequencyTypeSerializer : ITypeReader<DeviceFr
 {
     [Dependency] private IPrototypeManager _protoMan = default!;
 
-    public DeviceFrequency Read(ISerializationManager serializationManager,
+    public DeviceFrequency Read(
+        ISerializationManager serializationManager,
         ValueDataNode node,
         IDependencyCollection dependencies,
         SerializationHookContext hookCtx,
         ISerializationContext? context = null,
         ISerializationManager.InstantiationDelegate<DeviceFrequency>? instanceProvider = null)
     {
-        // A normal ushort value
-        if (ushort.TryParse(node.Value, out var value))
+        if (ushort.TryParse(
+                node.Value,
+                NumberStyles.Integer,
+                CultureInfo.InvariantCulture,
+                out var value))
+        {
             return new DeviceFrequency(value);
+        }
 
-        // A double value with a decimal, serialized as being without it and cast back to ushort
-        if (double.TryParse(node.Value, out var dec))
+        if (double.TryParse(
+                node.Value,
+                NumberStyles.Float,
+                CultureInfo.InvariantCulture,
+                out var dec))
+        {
             return new DeviceFrequency((ushort) FixedPoint2.New(dec).Value);
+        }
 
         if (_protoMan.TryIndex<DeviceFrequencyPrototype>(node.Value, out var proto))
             return new DeviceFrequency(proto.Frequency);
 
-        throw new InvalidMappingException($"{nameof(DeviceFrequency)} value must be parsable to ushort,  or a {nameof(DeviceFrequencyPrototype)} ID!");
+        throw new InvalidMappingException(
+            $"{nameof(DeviceFrequency)} value '{node.Value}' could not be parsed. " +
+            $"Expected a ushort, a valid double, or a {nameof(DeviceFrequencyPrototype)} ID!");
     }
 
     public ValidationNode Validate(ISerializationManager serializationManager,

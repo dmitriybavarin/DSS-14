@@ -2,10 +2,11 @@
 {
     "version": "2.0.0",
     "tasks": [
+
         {
             "label": "build",
             "command": "dotnet",
-            "type": "shell",
+            "type": "process",
             "args": [
                 "build",
                 "/property:GenerateFullPaths=true",
@@ -25,7 +26,7 @@
             }
         },
         {
-            "label": "Собрать → Запустить локальный сервер",
+            "label": "Собрать + Запустить локальный сервер (DEV)",
             "dependsOn": [
                 "build"
             ],

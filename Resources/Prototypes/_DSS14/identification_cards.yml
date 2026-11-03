@@ -1,0 +1,28 @@
+- type: entity
+  parent: [IDCardStandard, BaseGrandTheftContraband]
+  id: DSODirectorIDCard
+  name: special operation director ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: stripe_top
+      color: "#1b67a5"
+    - state: stripe_bottom
+      color: "#0e4069"
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Captain
+  - type: Item
+    heldPrefix: gold
+  - type: PresetIdCard
+    job: Captain
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup:
+    - CaptainIDCard

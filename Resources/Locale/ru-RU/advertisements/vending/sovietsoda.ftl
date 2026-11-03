@@ -1,0 +1,9 @@
+advertisement-sovietsoda-1 = За товарища и Родину.
+advertisement-sovietsoda-2 = Выполнили ли вы сегодня норму по питанию?
+advertisement-sovietsoda-3 = Очень хорошо!
+advertisement-sovietsoda-4 = Мы простые люди, и это всё, чем мы питаемся.
+advertisement-sovietsoda-5 = Есть человек, есть проблема. Нет человека, нет проблемы.
+advertisement-sovietsoda-6 = Если этого достаточно для повседневной жизни, значит, этого достаточно и для нас!
+thankyou-sovietsoda-1 = Наслаждайтесь, товарищ!
+thankyou-sovietsoda-2 = А теперь возвращайтесь к работе.
+thankyou-sovietsoda-3 = Больше вам ничего не положено.

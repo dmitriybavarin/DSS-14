@@ -1,0 +1,23 @@
+advertisement-boozeomat-1 = Надеюсь, никто не попросит у меня чёртову чашку чая...
+advertisement-boozeomat-2 = Алкоголь это друг человечества. Разве ты бросишь друга?
+advertisement-boozeomat-3 = Рад служить вам!
+advertisement-boozeomat-4 = На этой станции никто не хочет пить?
+advertisement-boozeomat-5 = Пейте на здоровье!
+advertisement-boozeomat-6 = Алкоголь полезен для вас!
+advertisement-boozeomat-7 = Алкоголь это лучший друг человечества.
+advertisement-boozeomat-8 = Не желаете холодного пивка?
+advertisement-boozeomat-9 = Ничто не лечит лучше алкоголя!
+advertisement-boozeomat-10 = Сделайте глоток!
+advertisement-boozeomat-11 = Выпейте!
+advertisement-boozeomat-12 = Выпейте пивка!
+advertisement-boozeomat-13 = Пиво полезно для вас!
+advertisement-boozeomat-14 = Только лучший алкоголь!
+advertisement-boozeomat-15 = Алкоголь высшего качества с 2053 года!
+advertisement-boozeomat-16 = Вино, удостоенное наград!
+advertisement-boozeomat-17 = Максимум алкоголя!
+advertisement-boozeomat-18 = Мужчина любит пиво.
+advertisement-boozeomat-19 = Выпьем за прогресс!
+
+thankyou-boozeomat-1 = Пожалуйста, пейте ответственно!
+thankyou-boozeomat-2 = Пожалуйста, пейте безответственно!
+thankyou-boozeomat-3 = Наслаждайтесь напитком!

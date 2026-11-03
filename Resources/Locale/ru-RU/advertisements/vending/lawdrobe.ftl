@@ -1,0 +1,14 @@
+advertisement-lawdrobe-1 = ПРОТЕСТУЮ! Приобщите верховенство закона к своему гардеробу!
+advertisement-lawdrobe-2 = Досаждайте службе безопасности, пока она не начнёт следовать вашим правилам!
+advertisement-lawdrobe-3 = Новое дело? Скорее вытаскивайте клиента из тюрьмы!
+advertisement-lawdrobe-4 = Пончик в день и СБ не видать!
+advertisement-lawdrobe-5 = Закон един для всех!
+advertisement-lawdrobe-6 = Офицер, я не давал согласия на обыск!
+advertisement-lawdrobe-7 = Инъекции космических наркотиков не оставляют улик!
+advertisement-lawdrobe-8 = Вы или ваши близкие пострадали от NanoTrasen? Как жаль!
+advertisement-lawdrobe-9 = Дело закрыто! У подсудимого слишком крутой прикид!
+thankyou-lawdrobe-1 = В таком наряде вы выиграете любое дело!
+thankyou-lawdrobe-2 = Купите такой же и своему клиенту!
+thankyou-lawdrobe-3 = Выиграли или проиграли этот гонорар вам всё равно положен!
+thankyou-lawdrobe-4 = Помните: это незаконно, только если вас поймали!
+thankyou-lawdrobe-5 = ПРОТЕСТУЮ! Этот наряд слишком крут для суда!

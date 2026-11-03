@@ -1,0 +1,8 @@
+lathe-recipe-Medkit-name = аптечка первой помощи (пустая)
+lathe-recipe-MedkitBurn-name = аптечка для лечения ожогов (пустая)
+lathe-recipe-MedkitToxin-name = аптечка для лечения отравлений (пустая)
+lathe-recipe-MedkitO2-name = аптечка для лечения кислородного голодания (пустая)
+lathe-recipe-MedkitBrute-name = аптечка для лечения физических травм (пустая)
+lathe-recipe-MedkitAdvanced-name = продвинутая аптечка первой помощи (пустая)
+lathe-recipe-MedkitRadiation-name = аптечка для лечения лучевой болезни (пустая)
+lathe-recipe-MedkitCombat-name = боевая медицинская аптечка (пустая)

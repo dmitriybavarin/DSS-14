@@ -1,0 +1,16 @@
+job-icon-group-command = Командование
+job-icon-group-cargo = Снабжение
+job-icon-group-engineering = Инженерный
+job-icon-group-medical = Медицинский
+job-icon-group-science = Научный
+job-icon-group-security = Служба безопасности
+job-icon-group-service = Сервис
+job-icon-group-theatre = Театр
+job-icon-group-civilian = Экипаж
+job-icon-group-silicon = Силиконы
+job-icon-group-centcomm = Центральное командование
+job-icon-group-task-force = Специальные операции
+job-icon-group-antagonist = Антагонист
+job-icon-group-misc = Разное
+job-icon-group-blank = Пусто
+job-icon-group-admin = Администрация

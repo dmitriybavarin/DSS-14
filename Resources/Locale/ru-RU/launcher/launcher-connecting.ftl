@@ -1,0 +1,19 @@
+connecting-title = Deep Space Station 14
+connecting-exit = Выйти
+connecting-retry = Повторить
+connecting-reconnect = Переподключиться
+connecting-copy = Копировать сообщение
+connecting-redial = Перезапустить
+connecting-redial-wait = Подождите: { TOSTRING($time, "G3") }
+connecting-in-progress = Подключение к серверу...
+connecting-disconnected = Соединение с сервером разорвано:
+connecting-tip = Не умрите!
+connecting-window-tip = Совет { $numberTip }
+connecting-version = версия 0.1
+connecting-fail-reason = Не удалось подключиться к серверу:
+                         { $reason }
+connecting-state-NotConnecting = Not connecting
+connecting-state-ResolvingHost = Resolving host
+connecting-state-EstablishingConnection = Establishing connection
+connecting-state-Handshake = Handshake
+connecting-state-Connected = Connected

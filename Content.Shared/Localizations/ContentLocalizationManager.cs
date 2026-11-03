@@ -9,8 +9,8 @@ namespace Content.Shared.Localizations
     {
         [Dependency] private ILocalizationManager _loc = default!;
 
-        // If you want to change your codebase's language, do it here.
-        private const string Culture = "en-US";
+        private const string Culture = "ru-RU";
+        private const string FallbackCulture = "en-US";
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -25,31 +25,30 @@ namespace Content.Shared.Localizations
 
         public void Initialize()
         {
-            var culture = new CultureInfo(Culture);
+            var culture = CultureInfo.GetCultureInfo(Culture);
+            var fallbackCulture = CultureInfo.GetCultureInfo(FallbackCulture);
 
             _loc.LoadCulture(culture);
+            _loc.LoadCulture(fallbackCulture);
+            _loc.SetFallbackCulture(fallbackCulture);
+            RegisterCultureFunctions(culture);
+            RegisterCultureFunctions(fallbackCulture);
+        }
+
+        private void RegisterCultureFunctions(CultureInfo culture)
+        {
+            _loc.AddFunction(culture, "MANY", FormatMany);
+            _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
-            // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
             _loc.AddFunction(culture, "ENERGYWATTHOURS", FormatEnergyWattHours);
             _loc.AddFunction(culture, "UNITS", FormatUnits);
             _loc.AddFunction(culture, "TOSTRING", args => FormatToString(culture, args));
             _loc.AddFunction(culture, "LOC", FormatLoc);
-            _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
-            _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
+            _loc.AddFunction(culture, "NATURALFIXED", args => FormatNaturalFixed(culture, args));
+            _loc.AddFunction(culture, "NATURALPERCENT", args => FormatNaturalPercent(culture, args));
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
-
-
-            /*
-             * The following language functions are specific to the english localization. When working on your own
-             * localization you should NOT modify these, instead add new functions specific to your language/culture.
-             * This ensures the english translations continue to work as expected when fallbacks are needed.
-             */
-            var cultureEn = new CultureInfo("en-US");
-
-            _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
-            _loc.AddFunction(cultureEn, "MANY", FormatMany);
         }
 
         private ILocValue FormatMany(LocArgs args)
@@ -66,22 +65,35 @@ namespace Content.Shared.Localizations
             }
         }
 
-        private ILocValue FormatNaturalPercent(LocArgs args)
+        private static ILocValue FormatNaturalPercent(CultureInfo culture, LocArgs args)
         {
-            var number = ((LocValueNumber) args.Args[0]).Value * 100;
+            var value = ((LocValueNumber) args.Args[0]).Value * 100;
             var maxDecimals = (int)Math.Floor(((LocValueNumber) args.Args[1]).Value);
-            var formatter = (NumberFormatInfo)NumberFormatInfo.GetInstance(CultureInfo.GetCultureInfo(Culture)).Clone();
-            formatter.NumberDecimalDigits = maxDecimals;
-            return new LocValueString(string.Format(formatter, "{0:N}", number).TrimEnd('0').TrimEnd(char.Parse(formatter.NumberDecimalSeparator)) + "%");
+            return new LocValueString($"{FormatNaturalNumber(value, maxDecimals, culture)}%");
         }
 
-        private ILocValue FormatNaturalFixed(LocArgs args)
+        private static ILocValue FormatNaturalFixed(CultureInfo culture, LocArgs args)
         {
-            var number = ((LocValueNumber) args.Args[0]).Value;
+            var value = ((LocValueNumber) args.Args[0]).Value;
             var maxDecimals = (int)Math.Floor(((LocValueNumber) args.Args[1]).Value);
-            var formatter = (NumberFormatInfo)NumberFormatInfo.GetInstance(CultureInfo.GetCultureInfo(Culture)).Clone();
-            formatter.NumberDecimalDigits = maxDecimals;
-            return new LocValueString(string.Format(formatter, "{0:N}", number).TrimEnd('0').TrimEnd(char.Parse(formatter.NumberDecimalSeparator)));
+            return new LocValueString(FormatNaturalNumber(value, maxDecimals, culture));
+        }
+
+        private static string FormatNaturalNumber(double value, int maxDecimals, CultureInfo culture)
+        {
+            var formatter = (NumberFormatInfo) NumberFormatInfo
+                .GetInstance(culture)
+                .Clone();
+            formatter.NumberDecimalDigits = Math.Clamp(maxDecimals, 0, 15);
+
+            var formatted = value.ToString("N", formatter);
+            var decimalSeparator = formatter.NumberDecimalSeparator;
+            var separatorIndex = formatted.LastIndexOf(decimalSeparator, StringComparison.Ordinal);
+
+            if (separatorIndex < 0)
+                return formatted;
+
+            return formatted.TrimEnd('0').TrimEnd(decimalSeparator[0]);
         }
 
         private static readonly Regex PluralEsRule = new("^.*(s|sh|ch|x|z)$");
@@ -89,22 +101,12 @@ namespace Content.Shared.Localizations
         private ILocValue FormatMakePlural(LocArgs args)
         {
             var text = ((LocValueString) args.Args[0]).Value;
-            var split = text.Split(" ", 1);
-            var firstWord = split[0];
-            if (PluralEsRule.IsMatch(firstWord))
-            {
-                if (split.Length == 1)
-                    return new LocValueString($"{firstWord}es");
-                else
-                    return new LocValueString($"{firstWord}es {split[1]}");
-            }
-            else
-            {
-                if (split.Length == 1)
-                    return new LocValueString($"{firstWord}s");
-                else
-                    return new LocValueString($"{firstWord}s {split[1]}");
-            }
+            var separatorIndex = text.IndexOf(' ');
+            var firstWord = separatorIndex >= 0 ? text[..separatorIndex] : text;
+            var suffix = separatorIndex >= 0 ? text[separatorIndex..] : string.Empty;
+            var pluralEnding = PluralEsRule.IsMatch(firstWord) ? "es" : "s";
+
+            return new LocValueString($"{firstWord}{pluralEnding}{suffix}");
         }
 
         // TODO: allow fluent to take in lists of strings so this can be a format function like it should be.
@@ -152,7 +154,7 @@ namespace Content.Shared.Localizations
             time = TimeSpan.FromMinutes(Math.Ceiling(time.TotalMinutes));
             var hours = (int)time.TotalHours;
             var minutes = time.Minutes;
-            return Loc.GetString($"zzzz-fmt-playtime", ("hours", hours), ("minutes", minutes));
+            return Loc.GetString("zzzz-fmt-playtime", ("hours", hours), ("minutes", minutes));
         }
 
         private static ILocValue FormatLoc(LocArgs args)
@@ -224,7 +226,7 @@ namespace Content.Shared.Localizations
 
             var fmtstr = ((LocValueString) args.Args[1]).Value;
 
-            double max = Double.NegativeInfinity;
+            var max = double.NegativeInfinity;
             var iargs = new double[args.Args.Count - 1];
             for (var i = 2; i < args.Args.Count; i++)
             {
@@ -249,8 +251,8 @@ namespace Content.Shared.Localizations
             // https://docs.microsoft.com/en-us/dotnet/standard/base-types/composite-formatting#escaping-braces
             //
             // Note that the closing brace isn't replaced so that format specifiers can be applied.
-            var res = String.Format(
-                fmtstr.Replace("{UNIT", "{" + $"{fargs.Length - 1}"),
+            var res = string.Format(
+                fmtstr.Replace("{UNIT", $"{{{fargs.Length - 1}"),
                 fargs
             );
 

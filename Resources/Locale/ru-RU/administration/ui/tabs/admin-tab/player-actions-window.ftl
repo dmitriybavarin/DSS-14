@@ -1,0 +1,9 @@
+admin-player-actions-window-ban = Панель блокировок
+admin-player-actions-window-admin-ghost = AGhost
+admin-player-actions-window-permissions = Панель разрешений
+admin-player-actions-window-announce = Объявить
+admin-player-actions-window-shuttle = Вызвать шаттл / Отменить вызов
+admin-player-actions-window-event-log = Журнал событий
+admin-player-actions-window-admin-logs = Логи администратора
+admin-player-actions-window-admin-fax = Факс администратора
+admin-player-actions-window-admin-chat = Чат администраторов

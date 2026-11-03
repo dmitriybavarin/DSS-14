@@ -1,0 +1,9 @@
+cmd-osay-desc = Заставляет другую сущность попытаться отправить сообщение
+cmd-osay-help = Использование: {$command} <uid> <type> <message>
+
+osay-command-arg-uid = UID исходной сущности
+osay-command-arg-type = тип
+osay-command-arg-message = сообщение
+
+osay-command-error-args = Неверное количество аргументов
+osay-command-error-euid = {$arg} не является допустимым UID сущности.
