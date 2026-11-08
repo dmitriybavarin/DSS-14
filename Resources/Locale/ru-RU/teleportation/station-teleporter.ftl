@@ -1,31 +1,31 @@
-teleporter-console-slot-name = Disk
-teleporter-console-chip-record = Coordinates saved!
+teleporter-console-slot-name = Диск
+teleporter-console-chip-record = Координаты сохранены!
 
-teleporter-console-chip-examine-recorded = [color=#f5b942]Recorded coordinates: {$portal}[/color]
-teleporter-console-chip-examine-null = [color=#f5b942]Recorded coordinates: None[/color]
+teleporter-console-chip-examine-recorded = [color=#f5b942]Сохранённые координаты: {$portal}[/color]
+teleporter-console-chip-examine-null = [color=#f5b942]Сохранённые координаты: отсутствуют[/color]
 
-# UI
+# Интерфейс
 
-teleporter-console-user-interface-title = Teleporter control console
+teleporter-console-user-interface-title = Консоль управления телепортерами
 
-teleporter-console-user-interface-locate = Locate
-teleporter-console-user-interface-start-connection = Start connection
-teleporter-console-user-interface-cut-connection = Cut connection
-teleporter-console-user-interface-no-power = Unpowered
+teleporter-console-user-interface-locate = Найти
+teleporter-console-user-interface-start-connection = Установить соединение
+teleporter-console-user-interface-cut-connection = Разорвать соединение
+teleporter-console-user-interface-no-power = Нет питания
 
-teleporter-console-user-interface-no-teleporters = No teleporters
-teleporter-console-user-interface-unknown-station = Unknown station
-teleporter-console-user-interface-flavor-left = Manufacturer company takes no legal responsibility in cases of gate instability or resonance cascade.
+teleporter-console-user-interface-no-teleporters = Телепортеры отсутствуют
+teleporter-console-user-interface-unknown-station = Неизвестная станция
+teleporter-console-user-interface-flavor-left = Компания-производитель не несёт юридической ответственности за нестабильность врат или каскадный резонанс.
 teleporter-console-user-interface-flavor-right = v0.666
 
-teleporter-name-unknown = Unlabeled location
-teleporter-name-rd-first = RD Portable portal red
-teleporter-name-rd-second = RD Portable portal blue
+teleporter-name-unknown = Неизвестное местоположение
+teleporter-name-rd-first = Красный переносной портал НР
+teleporter-name-rd-second = Синий переносной портал НР
 
-teleporter-name-center = Teleport hangar
-teleporter-name-salvage = Salvage
-teleporter-name-medical = Medical
-teleporter-name-engineering = Engineering
-teleporter-name-security = Security
-teleporter-name-science = Science
-teleporter-name-cargo = Cargo
+teleporter-name-center = Телеангар
+teleporter-name-salvage = Утилизация
+teleporter-name-medical = Медицина
+teleporter-name-engineering = Инженерный отдел
+teleporter-name-security = Служба безопасности
+teleporter-name-science = Научный отдел
+teleporter-name-cargo = Снабжение

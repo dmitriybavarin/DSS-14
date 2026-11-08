@@ -1,4 +1,4 @@
-### Interaction Messages
+### Сообщения взаимодействия
 
-# Shown when repairing something
-comp-repairable-repair = You finish repairing {THE($target)} with {THE($tool)}
+# Отображается при ремонте чего-либо
+comp-repairable-repair = Вы заканчиваете ремонт {THE($target)} с помощью {THE($tool)}

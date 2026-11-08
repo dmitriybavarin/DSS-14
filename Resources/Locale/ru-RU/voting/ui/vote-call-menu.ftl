@@ -1,42 +1,42 @@
-ui-vote-type-restart = Restart round
-ui-vote-type-gamemode = Next gamemode
-ui-vote-type-map = Next map
-ui-vote-type-votekick = Votekick
+ui-vote-type-restart = Перезапустить раунд
+ui-vote-type-gamemode = Следующий игровой режим
+ui-vote-type-map = Следующая карта
+ui-vote-type-votekick = Исключение игрока
 
-# Votekick reasons
-ui-vote-votekick-type-raiding = Raiding
-ui-vote-votekick-type-cheating = Cheating
-ui-vote-votekick-type-spamming = Spamming
+# Причины исключения игрока
+ui-vote-votekick-type-raiding = Рейд
+ui-vote-votekick-type-cheating = Использование читов
+ui-vote-votekick-type-spamming = Флуд
 
-# Window title of the vote create menu
-ui-vote-create-title = Call Vote
+# Заголовок окна создания голосования
+ui-vote-create-title = Начать голосование
 
-# Submit button in the vote create button
-ui-vote-create-button = Call Vote
+# Кнопка подтверждения в меню создания голосования
+ui-vote-create-button = Начать голосование
 
-# Follow button in the vote create menu
-ui-vote-follow-button = Follow User
+# Кнопка слежения в меню создания голосования
+ui-vote-follow-button = Следить за игроком
 
-# Timeout text if a standard vote type is currently on timeout.
-ui-vote-type-timeout = This vote was called too recently ({$remaining})
+# Сообщение о тайм-ауте, если для данного типа голосования действует ограничение по времени
+ui-vote-type-timeout = Это голосование было запущено слишком недавно ({$remaining})
 
-# Unavailable text if a vote type has been disabled manually.
-ui-vote-type-not-available = This vote type has been disabled
+# Сообщение о недоступности, если тип голосования был отключён вручную
+ui-vote-type-not-available = Этот тип голосования отключён
 
-# Vote option only available for specific users.
+# Вариант голосования, доступный только определённым игрокам
 ui-vote-trusted-users-notice =
-  This vote option is only available to players who have enough playtime or are whitelisted.
-  In addition, you must have been a ghost for { $timeReq } seconds.
+  Этот вариант голосования доступен только игрокам с достаточным игровым временем или внесённым в белый список.
+  Кроме того, вы должны пробыть призраком не менее { $timeReq } секунд.
 
-# Warning to not abuse a specific vote option.
+# Предупреждение о недопустимом использовании определённого варианта голосования
 ui-vote-abuse-warning =
-  Warning!
-  Abuse of the votekick system may result in an indefinite ban!
+  Внимание!
+  Злоупотребление системой исключения игроков может привести к бессрочной блокировке!
 
-# Hue hue hue
-ui-vote-fluff = Powered by Robust™ Anti-Tamper Technology
+# Хе-хе-хе
+ui-vote-fluff = Работает на базе технологии защиты от взлома Robust™
 
-## Vote menu command
+## Команда меню голосования
 
-cmd-votemenu-desc = Opens the voting menu.
-cmd-votemenu-help = Usage: votemenu
+cmd-votemenu-desc = Открывает меню голосования.
+cmd-votemenu-help = Использование: votemenu

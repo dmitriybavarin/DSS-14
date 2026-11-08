@@ -1,70 +1,70 @@
-trait-blindness-name = Blindness
-trait-blindness-desc = You are legally blind, and can't see clearly past a few meters in front of you.
+trait-blindness-name = Слепота
+trait-blindness-desc = Вы практически слепы и не можете чётко видеть дальше нескольких метров перед собой.
 
-trait-poor-vision-name = Short-sighted
-trait-poor-vision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
+trait-poor-vision-name = Близорукость
+trait-poor-vision-desc = Ваши глаза уже не те, что прежде. Вам трудно различать удалённые предметы без корректирующих очков.
 
-trait-narcolepsy-name = Narcolepsy
-trait-narcolepsy-desc = You fall asleep randomly.
+trait-narcolepsy-name = Нарколепсия
+trait-narcolepsy-desc = Вы случайным образом засыпаете.
 
-trait-pacifist-name = Pacifist
-trait-pacifist-desc = You cannot attack or hurt any living beings.
+trait-pacifist-name = Пацифист
+trait-pacifist-desc = Вы не можете нападать на живых существ или причинять им вред.
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
+permanent-blindness-trait-examined = [color=lightblue]Глаза {CAPITALIZE(POSS-ADJ($target))} стеклянные, взгляд расфокусирован. Похоже, {SUBJECT($target)} плохо вас видит или вовсе не видит.[/color]
 
-trait-lightweight-name = Lightweight drunk
-trait-lightweight-desc = Alcohol has a stronger effect on you.
+trait-lightweight-name = Быстрое опьянение
+trait-lightweight-desc = Алкоголь действует на вас сильнее обычного.
 
-trait-monochromacy-name = Monochromacy
-trait-monochromacy-desc = You are fully colorblind, everything you perceive ranges from blacks to whites.
+trait-monochromacy-name = Монохроматизм
+trait-monochromacy-desc = Вы полностью лишены цветового зрения. Всё, что вы видите, состоит из оттенков чёрного и белого.
 
-trait-muted-name = Muted
-trait-muted-desc = You can't speak.
+trait-muted-name = Немота
+trait-muted-desc = Вы не можете говорить.
 
-trait-paracusia-name = Paracusia
-trait-paracusia-desc = You hear sounds that aren't really there.
+trait-paracusia-name = Паракузия
+trait-paracusia-desc = Вы слышите звуки, которых на самом деле нет.
 
-trait-unrevivable-name = Unrevivable
-trait-unrevivable-desc = You are unable to be revived by defibrillators.
+trait-unrevivable-name = Не поддающийся реанимации
+trait-unrevivable-desc = Вас невозможно оживить с помощью дефибриллятора.
 
-trait-accentless-name = Accentless
-trait-accentless-desc = You don't have the accent that your species would usually have.
+trait-accentless-name = Отсутствие акцента
+trait-accentless-desc = Вы не обладаете акцентом, характерным для вашего вида.
 
-trait-frontal-lisp-name = Frontal lisp
-trait-frontal-lisp-desc = You thpeak with a lithp.
+trait-frontal-lisp-name = Межзубная шепелявость
+trait-frontal-lisp-desc = Вы говорите, шепелявя.
 
-trait-socialanxiety-name = Stutter
-trait-socialanxiety-desc = You speak with a stutter.
+trait-socialanxiety-name = Заикание
+trait-socialanxiety-desc = Вы говорите, заикаясь.
 
-trait-southern-name = Southern drawl
-trait-southern-desc = You have a different way of speakin'.
+trait-southern-name = Южный акцент
+trait-southern-desc = Вы говорите с характерным южным растягиванием слов.
 
-trait-snoring-name = Snoring
-trait-snoring-desc = You will snore while sleeping.
+trait-snoring-name = Храп
+trait-snoring-desc = Во сне вы храпите.
 
-trait-liar-name = Pathological liar
-trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
+trait-liar-name = Патологический лжец
+trait-liar-desc = Вам крайне трудно говорить правду. А иногда вы всё равно лжёте.
 
-trait-german-name = German accent
-trait-german-desc = You seem to come from space Germany.
+trait-german-name = Немецкий акцент
+trait-german-desc = Похоже, вы родом из космической Германии.
 
-trait-french-name = French accent
-trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
+trait-french-name = Французский акцент
+trait-french-desc = В вашем акценте есть нечто неуловимо французское.
 
-trait-spanish-name = Spanish accent
-trait-spanish-desc = Hola señor, ¿dónde está la biblioteca?
+trait-spanish-name = Испанский акцент
+trait-spanish-desc = ¡Hola, señor! ¿Dónde está la biblioteca?
 
-trait-scottish-name = Scottish accent
-trait-scottish-desc = Ye're speaking like ae proper Scot!
+trait-scottish-name = Шотландский акцент
+trait-scottish-desc = Йе говорите как настоящий шотландец!
 
-trait-painnumbness-name = Numb
-trait-painnumbness-desc = You lack any sense of feeling pain, being unaware of how hurt you may be.
+trait-painnumbness-name = Нечувствительность к боли
+trait-painnumbness-desc = Вы не чувствуете боли и не осознаёте, насколько сильно ранены.
 
-trait-hemophilia-name = Hemophilia
-trait-hemophilia-desc = Your body fails to make blood clots.
+trait-hemophilia-name = Гемофилия
+trait-hemophilia-desc = Ваша кровь не способна нормально сворачиваться.
 
-trait-impaired-mobility-name = Impaired Mobility
-trait-impaired-mobility-desc = You have difficulty moving without a mobility aid.
+trait-impaired-mobility-name = Нарушение подвижности
+trait-impaired-mobility-desc = Вам трудно передвигаться без вспомогательных средств.
 
-trait-blink-dyspraxia-name = Blink Dyspraxia
-trait-blink-dyspraxia-desc = Your eyelids lack coordination. Blinking requires conscious effort, and sometimes your eyes just refuse to sync up.
+trait-blink-dyspraxia-name = Диспраксия моргания
+trait-blink-dyspraxia-desc = Ваши веки плохо координируют движения. Чтобы моргнуть, приходится сознательно прилагать усилия, а иногда глаза просто отказываются моргать синхронно.

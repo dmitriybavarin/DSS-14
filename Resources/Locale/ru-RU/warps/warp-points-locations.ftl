@@ -1,15 +1,15 @@
-# Markers
-location-beacon = beacon
+# Маркеры
+location-beacon = маяк
 
-# Mobs
-location-nar-sie = Nar'Sie
-location-ratvar = Ratvar
-location-mothership-core = Mothership Core
+# Мобы
+location-nar-sie = Нар'Си
+location-ratvar = Ратвар
+location-mothership-core = Ядро материнского корабля
 
-# Objects
-location-tesla-ball = tesla ball
-location-singularity = singularity
-location-powersink = powersink
-location-immovable-rod = immovable rod
-location-nuke-disk = nuke disk
-location-nuclear-bomb = nuclear bomb
+# Объекты
+location-tesla-ball = шар Теслы
+location-singularity = сингулярность
+location-powersink = поглотитель энергии
+location-immovable-rod = неподвижный стержень
+location-nuke-disk = диск ядерной аутентификации
+location-nuclear-bomb = ядерная бомба

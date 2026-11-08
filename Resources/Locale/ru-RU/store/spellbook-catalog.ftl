@@ -1,92 +1,92 @@
-# Spells
-spellbook-fireball-name = Fireball
-spellbook-fireball-desc = Get most crew exploding with rage when they see this fireball heading toward them! Upgradeable.
+# Заклинания
+spellbook-fireball-name = Огненный шар
+spellbook-fireball-desc = Заставьте большую часть экипажа взорваться от ярости, увидев летящий в них огненный шар! Можно улучшать.
 
-spellbook-blink-name = Blink
-spellbook-blink-desc = Don't blink or you'll miss yourself teleporting away.
+spellbook-blink-name = Миг
+spellbook-blink-desc = Не моргайте, а то пропустите момент, когда телепортируетесь прочь.
 
-spellbook-voidapplause-name = Void Applause
-spellbook-voidapplause-desc = Swap places with the target, doesn't it make you want to do the boogie?
+spellbook-voidapplause-name = Аплодисменты пустоты
+spellbook-voidapplause-desc = Поменяйтесь местами с целью. Ну разве не хочется пуститься в пляс?
 
-spellbook-knock-name = Knock
-spellbook-knock-desc = Opens all airlocks, crates and lockers nearby.
+spellbook-knock-name = Стук
+spellbook-knock-desc = Открывает все шлюзы, ящики и шкафчики поблизости.
 
-spellbook-force-wall-name = Force Wall
-spellbook-force-wall-desc = Make three walls of pure force that you can pass through, but others can't.
+spellbook-force-wall-name = Силовая стена
+spellbook-force-wall-desc = Создаёт три стены из чистой силы, сквозь которые можете проходить вы, но не другие.
 
-spellbook-repulse-name = Repulse
-spellbook-repulse-desc = Tell people to GITTAH`WEIGH and push 'em away from you.
+spellbook-repulse-name = Отталкивание
+spellbook-repulse-desc = Крикните всем «А НУ ПОШЛИ ВОН!» и отбросьте их от себя.
 
-spellbook-smoke-name = Smoke
-spellbook-smoke-desc = Summons a cloud of smoke, it's pretty obvious.
+spellbook-smoke-name = Дым
+spellbook-smoke-desc = Создаёт облако дыма. Всё довольно очевидно.
 
-spellbook-polymorph-spider-name = Spider Polymorph
-spellbook-polymorph-spider-desc = Transforms you into a spider, man!
+spellbook-polymorph-spider-name = Превращение в паука
+spellbook-polymorph-spider-desc = Превратитесь в паука, чувак!
 
-spellbook-polymorph-rod-name = Rod Polymorph
-spellbook-polymorph-rod-desc = Change into an Immovable Rod with limited movement.
+spellbook-polymorph-rod-name = Превращение в стержень
+spellbook-polymorph-rod-desc = Превратитесь в неподвижный стержень с ограниченной подвижностью.
 
-spellbook-charge-name = Charge
-spellbook-charge-desc = Adds a charge back to your wand!
+spellbook-charge-name = Перезарядка
+spellbook-charge-desc = Восстанавливает один заряд вашей волшебной палочки!
 
-spellbook-ethereal-jaunt-name = Ethereal Jaunt
-spellbook-ethereal-jaunt-description = Slip into the ethereal plane to slip away from your enemies!
+spellbook-ethereal-jaunt-name = Эфирный прыжок
+spellbook-ethereal-jaunt-description = Перейдите в эфирный план, чтобы скрыться от врагов!
 
-spellbook-mind-swap-name = Mind Swap
-spellbook-mind-swap-description = Exchange bodies with another person!
+spellbook-mind-swap-name = Обмен разумами
+spellbook-mind-swap-description = Поменяйтесь телами с другим человеком!
 
-spellbook-animate-name = Animate
-spellbook-animate-description = Bring an inanimate object to life!
+spellbook-animate-name = Оживление
+spellbook-animate-description = Оживите неодушевлённый предмет!
 
-spellbook-smite-name = Smite
-spellbook-smite-desc = Don't like them? EXPLODE them into giblets! Requires Wizard Robe & Hat.
+spellbook-smite-name = Кара
+spellbook-smite-desc = Кто-то вам не нравится? ВЗОРВИТЕ его на кусочки! Требуются мантия и шляпа волшебника.
 
-spellbook-cluwne-name = Cluwne's Curse
-spellbook-cluwne-desc = For when you really hate someone and Smite isn't enough. Requires Wizard Robe & Hat.
+spellbook-cluwne-name = Проклятие клувня
+spellbook-cluwne-desc = Для тех случаев, когда вы кого-то по-настоящему ненавидите, а кары недостаточно. Требуются мантия и шляпа волшебника.
 
-spellbook-slip-name = Slippery Slope
-spellbook-slip-desc = Learn the ancient ways of the Janitor and curse your target to be slippery.
+spellbook-slip-name = Скользкий путь
+spellbook-slip-desc = Освойте древнее искусство уборщиков и прокляните цель, заставив её скользить.
 
-spellbook-item-recall-name = Item Recall
-spellbook-item-recall-description = Mark a held item and summon it back at any time with just a snap of your fingers!
+spellbook-item-recall-name = Возврат предмета
+spellbook-item-recall-description = Пометьте предмет в руке и призовите его обратно в любой момент одним щелчком пальцев!
 
-spellbook-guardian-deck-name = Tarot Deck
-spellbook-guardian-deck-description = A bizarre deck of card that grants you a spectral guardian when used.
+spellbook-guardian-deck-name = Колода Таро
+spellbook-guardian-deck-description = Странная колода карт, которая при использовании дарует вам призрачного стража.
 
-# Equipment
+# Снаряжение
 
-spellbook-wand-polymorph-door-name = Wand of Entrance
-spellbook-wand-polymorph-door-description = For when you need a get-away route.
+spellbook-wand-polymorph-door-name = Палочка входа
+spellbook-wand-polymorph-door-description = На случай, когда нужен путь для отступления.
 
-spellbook-wand-polymorph-carp-name = Wand of Carp Polymorph
-spellbook-wand-polymorph-carp-description = For when you need a carp filet quick and the clown is looking juicy.
+spellbook-wand-polymorph-carp-name = Палочка превращения в карпа
+spellbook-wand-polymorph-carp-description = На случай, когда срочно нужно филе карпа, а клоун выглядит особенно аппетитно.
 
-spellbook-wand-locker-name = Wand of the Locker
-spellbook-wand-locker-description = Shoot cursed lockers at your enemies and lock em away!
+spellbook-wand-locker-name = Палочка шкафчика
+spellbook-wand-locker-description = Стреляйте проклятыми шкафчиками во врагов и запирайте их внутри!
 
-spellbook-hammer-mjollnir-name = Mjollnir
-spellbook-hammer-mjollnir-description = Wield the power of THUNDER in your hands. Send foes flying with a mighty swing or by throwing it right at em!
+spellbook-hammer-mjollnir-name = Мьёльнир
+spellbook-hammer-mjollnir-description = Держите МОЩЬ ГРОМА в своих руках. Отправляйте врагов в полёт могучим ударом или метким броском!
 
-spellbook-hammer-singularity-name = Singularity Hammer
-spellbook-hammer-singularity-description = Ever wonder what it'd be like to be the singularity? Swing this hammer to draw in your surroundings, even works if you miss!
+spellbook-hammer-singularity-name = Молот сингулярности
+spellbook-hammer-singularity-description = Хотите узнать, каково быть сингулярностью? Взмахните молотом, чтобы притянуть всё вокруг. Работает, даже если вы промахнулись!
 
-spellbook-staff-animation-name = Staff of Animation
-spellbook-staff-animation-description = Bring inanimate objects to life!
+spellbook-staff-animation-name = Посох оживления
+spellbook-staff-animation-description = Оживите неодушевлённые предметы!
 
-# Events
+# События
 
-spellbook-event-summon-ghosts-name = Summon Ghosts
-spellbook-event-summon-ghosts-description = Who ya gonna call?
+spellbook-event-summon-ghosts-name = Призыв призраков
+spellbook-event-summon-ghosts-description = Кого ты собираешься вызвать?
 
-spellbook-event-summon-guns-name = Summon Guns
-spellbook-event-summon-guns-description = AK47s for everyone! Places a random gun in front of everybody. Disables refunds when bought!
+spellbook-event-summon-guns-name = Призыв оружия
+spellbook-event-summon-guns-description = АК-47 для всех! Помещает случайное оружие перед каждым. При покупке возврат средств отключается!
 
-spellbook-event-summon-magic-name = Summon Magic
-spellbook-event-summon-magic-description = Places a random magical item in front of everybody. Nothing could go wrong! Disables refunds when bought!
+spellbook-event-summon-magic-name = Призыв магии
+spellbook-event-summon-magic-description = Помещает случайный магический предмет перед каждым. Что может пойти не так! При покупке возврат средств отключается!
 
-# Upgrades
-spellbook-upgrade-fireball-name = Upgrade Fireball
-spellbook-upgrade-fireball-description = Upgrades Fireball to a maximum of level 3!
+# Улучшения
+spellbook-upgrade-fireball-name = Улучшение огненного шара
+spellbook-upgrade-fireball-description = Улучшает огненный шар до максимального 3-го уровня!
 
-spellbook-upgrade-jaunt-name = Upgrade Ethereal Jaunt
-spellbook-upgrade-jaunt-description = Upgrades Jaunt to a maximum of level 3!
+spellbook-upgrade-jaunt-name = Улучшение эфирного прыжка
+spellbook-upgrade-jaunt-description = Улучшает эфирный прыжок до максимального 3-го уровня!

@@ -1,20 +1,20 @@
-# Refill Messages
-comp-entity-provider-cannot-receive = {CAPITALIZE(THE($refillTarget))} cannot be refilled!
-comp-entity-provider-cannot-transfer = {CAPITALIZE(THE($provider))} cannot be used to refill!
-comp-entity-provider-full = {CAPITALIZE(THE($provider))} is already full!
+# Сообщения о пополнении
+comp-entity-provider-cannot-receive = {CAPITALIZE(THE($refillTarget))}: пополнение невозможно!
+comp-entity-provider-cannot-transfer = {CAPITALIZE(THE($provider))}: нельзя использовать для пополнения!
+comp-entity-provider-full = {CAPITALIZE(THE($provider))}: уже полно!
 
-# Ejection Messages
-comp-entity-provider-no-ejected = There's nothing to eject!
+# Сообщения об извлечении
+comp-entity-provider-no-ejected = Нечего извлекать!
 
-# Menu Messages
-comp-entity-provider-select-entity = Select {MAKEPLURAL($entity)}.
-comp-entity-provider-eject-all-specified-entities = Eject all {MAKEPLURAL($entity)}.
-comp-entity-provider-select-new-active = Switch selected stored object.
+# Сообщения меню
+comp-entity-provider-select-entity = Выбрать {MAKEPLURAL($entity)}.
+comp-entity-provider-eject-all-specified-entities = Извлечь все {MAKEPLURAL($entity)}.
+comp-entity-provider-select-new-active = Переключить выбранный хранимый объект.
 
-# Examine Description
+# Описание при осмотре
 
-comp-entity-provider-no-stored-entities = It's empty.
-comp-entity-provider-has-entities = It contains the following:
+comp-entity-provider-no-stored-entities = Пусто.
+comp-entity-provider-has-entities = Содержит следующее:
 comp-entity-provider-entity-listing = {$amount ->
     [one] [color=yellow]{$amount}[/color] [color=gray]{$name}[/color]
     *[other] [color=yellow]{$amount}[/color] [color=gray]{MAKEPLURAL($name)}[/color]

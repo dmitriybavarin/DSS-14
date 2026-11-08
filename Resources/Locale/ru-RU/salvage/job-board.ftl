@@ -1,47 +1,47 @@
-salvage-job-rank-title-0 = [color=gray]Scavenger[/color]
-salvage-job-rank-title-1 = [color=white]Scrapper[/color]
-salvage-job-rank-title-2 = [color=yellow]Specialist[/color]
-salvage-job-rank-title-MAX = [color=gold]Supreme Salvager[/color]
+salvage-job-rank-title-0 = [color=gray]Сборщик хлама[/color]
+salvage-job-rank-title-1 = [color=white]Сборщик лома[/color]
+salvage-job-rank-title-2 = [color=yellow]Специалист[/color]
+salvage-job-rank-title-MAX = [color=gold]Верховный утилизатор[/color]
 
-job-board-radio-announce = Salvager rank increased to [bold]{$rank}[/bold]! New orders can be purchased from Cargo.
+job-board-radio-announce = Ранг утилизатора повышен до [bold]{$rank}[/bold]! Новые заказы можно приобрести в отделе снабжения.
 
-job-board-ui-window-title = Job Board
-job-board-ui-label-rank = [bold]Rank:[/bold]
-job-board-ui-label-items = Target: [color=red]{$item}[/color]
+job-board-ui-window-title = Доска заказов
+job-board-ui-label-rank = [bold]Ранг:[/bold]
+job-board-ui-label-items = Цель: [color=red]{$item}[/color]
 
-job-board-label-text = [head=2]Salvage Job Shipment[/head]
-    {"[italic]For use only on official off-station salvage shipments.[/italic]"}
+job-board-label-text = [head=2]Поставка по заказу на утилизацию[/head]
+    {"[italic]Только для официальных поставок с утилизационных экспедиций за пределами станции.[/italic]"}
 
-    {"[bold]Target:[/bold]"} {$target}
-    {"[bold]Reward:[/bold]"} ${$reward}
+    {"[bold]Цель:[/bold]"} {$target}
+    {"[bold]Награда:[/bold]"} ${$reward}
 
 
-    {"[italic]Shipments are subject to inspection by the Donk corporation[/italic]"}
+    {"[italic]Поставки могут быть проверены корпорацией Donk[/italic]"}
 
-salv-job-board-name-BountyTeethSpaceCarp = Space Carp
-salv-job-board-name-BountySalvageScrap = Deep-Space Debris
-salv-job-board-name-BountySalvageOreGold = Gold (Ore)
-salv-job-board-name-BountySalvageOreSilver = Silver (Ore)
+salv-job-board-name-BountyTeethSpaceCarp = Космический карп
+salv-job-board-name-BountySalvageScrap = Обломки из глубокого космоса
+salv-job-board-name-BountySalvageOreGold = Золото (руда)
+salv-job-board-name-BountySalvageOreSilver = Серебро (руда)
 
-salv-job-board-name-BountySalvageOreUranium = Uranium (Ore)
-salv-job-board-name-BountySalvageOrePlasma = Plasma (Ore)
-salv-job-board-name-BountySalvageOreBananium = Bananium (Ore)
-salv-job-board-name-BountyTeethSharkminnow = Sharkminnow
+salv-job-board-name-BountySalvageOreUranium = Уран (руда)
+salv-job-board-name-BountySalvageOrePlasma = Плазма (руда)
+salv-job-board-name-BountySalvageOreBananium = Бананиум (руда)
+salv-job-board-name-BountyTeethSharkminnow = Акулий гольян
 
-salv-job-board-name-BountyGoliathPlates = Goliath
-salv-job-board-name-BountyHivelordRemains = Hivelord
-salv-job-board-name-BountySalvageDiamond = Diamond
+salv-job-board-name-BountyGoliathPlates = Голиаф
+salv-job-board-name-BountyHivelordRemains = Повелитель улья
+salv-job-board-name-BountySalvageDiamond = Алмаз
 
-bounty-description-tooth-space-carp = We need you to get a sample of some space carp teeth. You can find these guys on all kinds of salvage debris. Just be careful about their bite.
-bounty-description-salvage-scrap = We are researching the effects of deep space on station materials, and we need some samples. Find some old junk off of debris and bring it to us.
-bounty-description-salvage-ore-gold = We are engaging in an experimental new electronics manufacturing process. Deliver us a large sum of unrefined gold ore. It can come from any source.
-bounty-description-salvage-ore-silver = We are studying the material effects of silver based on the refining methods. Send us a large amount of unrefined silver ore. It can come from any source.
+bounty-description-tooth-space-carp = Нам нужен образец зубов космического карпа. Эти существа встречаются на самых разных обломках, пригодных для утилизации. Только берегитесь их укусов.
+bounty-description-salvage-scrap = Мы изучаем влияние глубокого космоса на материалы станции и нуждаемся в образцах. Найдите старый хлам среди обломков и доставьте его нам.
+bounty-description-salvage-ore-gold = Мы испытываем новый экспериментальный процесс производства электроники. Доставьте нам большую партию необработанной золотой руды. Источник не имеет значения.
+bounty-description-salvage-ore-silver = Мы изучаем, как способы очистки влияют на свойства серебра. Отправьте нам большую партию необработанной серебряной руды. Источник не имеет значения.
 
-bounty-description-tooth-sharkminnow = We need you to get a sample of some Sharkminnow teeth. These guys are a fair bit nastier than the smaller carp you're familiar with. Take care to not let them bite you: they'll suck out your blood and heal.
-bounty-description-salvage-ore-plasma = We need a shipment of plasma ore to send over to the research station. Please provide us with some so that we can continue our testing. It can come from any source.
-bounty-description-salvage-ore-uranium = We need a sample of uranium ore for our ongoing experiments on nuclear devices. Be aware that while the uranium does glow slightly, it will probably not harm you. It can come from any source.
-bounty-description-salvage-ore-bananium = We have an ongoing project to decode the mystifying clown genomic sequence. We believe a sample of raw bananium will help us achieve this. Note that this only comes from the rarest of deep-space asteroids.
+bounty-description-tooth-sharkminnow = Нам нужен образец зубов акульего гольяна. Эти твари куда опаснее привычных вам мелких карпов. Не позволяйте им кусать вас: они высасывают кровь и залечивают раны. Будьте осторожны.
+bounty-description-salvage-ore-plasma = Нам нужна партия плазменной руды для исследовательской станции. Предоставьте нам немного руды, чтобы мы могли продолжить испытания. Источник не имеет значения.
+bounty-description-salvage-ore-uranium = Для текущих экспериментов с ядерными устройствами нам нужен образец урановой руды. Учтите, что уран слегка светится, но, скорее всего, не причинит вам вреда. Источник не имеет значения.
+bounty-description-salvage-ore-bananium = Мы работаем над расшифровкой загадочной последовательности генома клоунов. Считаем, что образец необработанного бананиума поможет нам в этом. Учтите, что он встречается только в самых редких астероидах глубокого космоса.
 
-bounty-description-remains = We need you to get a sample of a few Hivelord cores. Be aware that Hivelords can replicate infinitely if the core is not destroyed. Take care not to get overwhelmed.
-bounty-description-plates = We need you to get a couple sheets of Goliath hide. These guys are pretty slow, but be careful about the tentacles: they'll grab you and pull you to the ground. You don't want to know what happens next.
-bounty-description-diamond = We need you to acquire a few diamonds for some advanced fabrication. These can either be found in the mining asteroid nearby or cut out of the basilisk creature. Whichever way you want to do it, get us some.
+bounty-description-remains = Нам нужно несколько образцов ядер повелителя улья. Учтите, что повелители улья могут бесконечно размножаться, если не уничтожить ядро. Не позволяйте им окружить вас.
+bounty-description-plates = Нам нужно несколько листов шкуры голиафа. Эти существа довольно медлительны, но берегитесь их щупалец: они схватят вас и повалят на землю. А что произойдёт дальше, вам лучше не знать.
+bounty-description-diamond = Нам нужно несколько алмазов для передового производства. Их можно найти на ближайшем шахтёрском астероиде или вырезать из существа-базилиска. Выбирайте любой способ, главное, доставьте их нам.

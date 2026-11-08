@@ -1,6 +1,6 @@
-### Messages that pop up when metabolizing hemorrhinol.
+### Сообщения, появляющиеся при метаболизме геморинола.
 
-hemorrhinol-effect-1 = Blood starts pouring from your eyes.
-hemorrhinol-effect-2 = Blood drips from your mouth.
-hemorrhinol-effect-3 = You feel cold.
-hemorrhinol-effect-4 = You shake uncontrollably.
+hemorrhinol-effect-1 = Кровь начинает литься из ваших глаз.
+hemorrhinol-effect-2 = Кровь капает у вас изо рта.
+hemorrhinol-effect-3 = Вам холодно.
+hemorrhinol-effect-4 = Вас неудержимо трясёт.

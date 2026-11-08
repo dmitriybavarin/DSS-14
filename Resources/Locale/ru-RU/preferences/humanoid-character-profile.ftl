@@ -1,10 +1,10 @@
-### UI
+### Интерфейс
 
-# Displayed in the Character prefs window
+# Отображается в окне настроек персонажа
 humanoid-character-profile-summary = 
-    This is {$name}. {$gender ->
-    [male] He is
-    [female] She is
-    [epicene] They are
-    *[other] It is
-} {$age} years old.
+    Это {$name}. {$gender ->
+    [male] Ему
+    [female] Ей
+    [epicene] Им
+    *[other] Ему
+} {$age} лет.

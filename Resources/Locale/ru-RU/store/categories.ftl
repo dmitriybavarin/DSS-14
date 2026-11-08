@@ -1,34 +1,34 @@
-# Uplink
-store-category-debug = debug category
-store-category-debug2 = debug category 2
-store-category-weapons = Weaponry
-store-category-ammo = Ammo
-store-category-explosives = Explosives
-store-category-chemicals = Chemicals
-store-category-deception = Deception
-store-category-disruption = Disruption
-store-category-implants = Implants
-store-category-allies = Allies
-store-category-job = Job
-store-category-wearables = Wearables
-store-category-pointless = Pointless
-store-category-objective = Objective
-store-discounted-items = Discounts
+# Аплинк
+store-category-debug = Отладочная категория
+store-category-debug2 = Отладочная категория 2
+store-category-weapons = Вооружение
+store-category-ammo = Боеприпасы
+store-category-explosives = Взрывчатка
+store-category-chemicals = Химикаты
+store-category-deception = Обман
+store-category-disruption = Диверсии
+store-category-implants = Импланты
+store-category-allies = Союзники
+store-category-job = Профессия
+store-category-wearables = Одежда и аксессуары
+store-category-pointless = Бесполезное
+store-category-objective = Цель
+store-discounted-items = Скидки
 
-# Revenant
-store-category-abilities = Abilities
+# Ревенант
+store-category-abilities = Способности
 
-# Wizard
-store-caregory-spellbook-offensive = Offensive Spells
-store-caregory-spellbook-defensive = Defensive Spells
-store-caregory-spellbook-utility = Utility Spells
-store-caregory-spellbook-equipment = Wizard Equipment
-store-caregory-spellbook-events = Event Spells
+# Волшебник
+store-caregory-spellbook-offensive = Наступательные заклинания
+store-caregory-spellbook-defensive = Защитные заклинания
+store-caregory-spellbook-utility = Вспомогательные заклинания
+store-caregory-spellbook-equipment = Снаряжение волшебника
+store-caregory-spellbook-events = Заклинания событий
 
-# Nukie Delivery
-store-category-nukie-delivery = Offers
+# Доставка ядерных оперативников
+store-category-nukie-delivery = Предложения
 
-# Changeling
-store-category-combat = Combat
-store-category-utility = Utility
-store-category-stealth = Stealth
+# Генокрад
+store-category-combat = Бой
+store-category-utility = Вспомогательное
+store-category-stealth = Скрытность

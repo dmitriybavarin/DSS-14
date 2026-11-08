@@ -1,23 +1,23 @@
-### Verbs
-artifact-verb-make-always-active = Make artifact always active
-artifact-verb-activate = Activate artifact
+### Действия
+artifact-verb-make-always-active = Сделать артефакт всегда активным
+artifact-verb-activate = Активировать артефакт
 
-### Unlocking
-artifact-unlock-state-begin = It begins to shift in strange ways...
-artifact-unlock-state-continue = The shifting continues, intensifying...
-artifact-unlock-state-end-success = It slows down, visibly changed.
-artifact-unlock-state-end-failure = It slows down before uneventfully stopping.
+### Разблокировка
+artifact-unlock-state-begin = Он начинает странно смещаться...
+artifact-unlock-state-continue = Смещение продолжается, усиливаясь...
+artifact-unlock-state-end-success = Он замедляется, заметно изменившись.
+artifact-unlock-state-end-failure = Он замедляется и бесславно останавливается.
 
-### Activation
-artifact-activation-fail = Nothing happens...
-artifact-activation-artifexium = The liquid seeps into the pores of the artifact...
+### Активация
+artifact-activation-fail = Ничего не происходит...
+artifact-activation-artifexium = Жидкость просачивается в поры артефакта...
 
-### Misc.
-artifact-examine-trigger-desc = [color=gray][italic]Am I on your mind?[/italic][/color]
+### Разное
+artifact-examine-trigger-desc = [color=gray][italic]Я у тебя на уме?[/italic][/color]
 
-artifact-node-class-1 = [color=#ff2bb1]Hylic[/color]
-artifact-node-class-2 = [color=#ff8b2b]Psychic[/color]
-artifact-node-class-3 = [color=#a9ff38]Pneumatic[/color]
-artifact-node-class-4 = [color=#2bfff8]Archon[/color]
-artifact-node-class-5 = [color=#7883ff]Luminary[/color]
-artifact-node-class-6 = [color=#be78ff]Demiurge[/color]
+artifact-node-class-1 = [color=#ff2bb1]Гилик[/color]
+artifact-node-class-2 = [color=#ff8b2b]Психик[/color]
+artifact-node-class-3 = [color=#a9ff38]Пневматик[/color]
+artifact-node-class-4 = [color=#2bfff8]Архонт[/color]
+artifact-node-class-5 = [color=#7883ff]Светило[/color]
+artifact-node-class-6 = [color=#be78ff]Демиург[/color]

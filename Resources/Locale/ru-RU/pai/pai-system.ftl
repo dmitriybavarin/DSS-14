@@ -1,25 +1,25 @@
-pai-system-pai-installed = A pAI is installed.
-pai-system-off = No pAI is installed.
-pai-system-still-searching = Still searching for a pAI.
-pai-system-searching = Now searching for a pAI...
+pai-system-pai-installed = пИИ установлен.
+pai-system-off = пИИ не установлен.
+pai-system-still-searching = Поиск пИИ продолжается.
+pai-system-searching = Поиск пИИ...
 
-pai-system-role-name = Personal AI
-pai-system-role-description = Be someone's electronic pal!
-                              (Memories *not* included.)
-pai-system-role-name-syndicate = Syndicate Personal AI
-pai-system-role-description-syndicate = Be someone's Syndicate pal!
-                                        (Memories *not* included.)
-pai-system-role-name-potato = Potato Artificial Intelligence
-pai-system-role-description-potato = It's a toy for children. And now you live in it.
+pai-system-role-name = Персональный ИИ
+pai-system-role-description = Станьте чьим-нибудь электронным другом!
+                              (Воспоминания *не* прилагаются.)
+pai-system-role-name-syndicate = Персональный ИИ Синдиката
+pai-system-role-description-syndicate = Станьте чьим-нибудь другом из Синдиката!
+                                        (Воспоминания *не* прилагаются.)
+pai-system-role-name-potato = Картофельный искусственный интеллект
+pai-system-role-description-potato = Это игрушка для детей. И теперь вы живёте внутри неё.
 
-pai-system-wipe-device-verb-text = Remove pAI
-pai-system-wiped-device = The pAI was wiped from the device.
+pai-system-wipe-device-verb-text = Удалить пИИ
+pai-system-wiped-device = пИИ удалён с устройства.
 
-pai-system-stop-searching-verb-text = Stop searching
-pai-system-stopped-searching = The device stopped searching for a pAI.
+pai-system-stop-searching-verb-text = Прекратить поиск
+pai-system-stopped-searching = Устройство прекратило поиск пИИ.
 
-pai-system-pai-name = { CAPITALIZE(THE($owner)) }'s pAI
-pai-system-pai-name-raw = {$name}'s pAI
+pai-system-pai-name = пИИ { CAPITALIZE(THE($owner)) }
+pai-system-pai-name-raw = пИИ игрока {$name}
 
-pai-system-brick-popup = The pAI's circuits loudly pop and fizzle out!
-pai-system-scramble-popup = The pAI's circuits are overloaded with electricity!
+pai-system-brick-popup = Схемы пИИ громко трещат и искрят!
+pai-system-scramble-popup = Электричество перегружает схемы пИИ!

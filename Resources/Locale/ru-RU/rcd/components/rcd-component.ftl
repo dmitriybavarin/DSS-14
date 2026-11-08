@@ -1,48 +1,47 @@
+### Интерфейс
 
-### UI
-
-rcd-component-examine-mode-details = It's currently set to '{$mode}' mode.
-rcd-component-examine-build-details = It's currently set to build {MAKEPLURAL($name)}.
-
-
-### Interaction Messages
-
-# Mode change
-rcd-component-change-mode = The RCD is now set to '{$mode}' mode.
-rcd-component-change-build-mode = The RCD is now set to build {MAKEPLURAL($name)}.
-
-# Ammo count
-rcd-component-no-ammo-message = The RCD has run out of charges!
-rcd-component-insufficient-ammo-message = The RCD doesn't have enough charges left!
-
-# Deconstruction
-rcd-component-tile-indestructible-message = That tile can't be destructed!
-rcd-component-deconstruct-target-not-on-whitelist-message = You can't deconstruct that!
-rcd-component-nothing-to-deconstruct-message = There's nothing to deconstruct!
-rcd-component-tile-obstructed-message = You can't deconstruct tiles when there's something on top of them!
-
-# Construction
-rcd-component-no-valid-grid = You're too far into open space to build here!
-rcd-component-must-build-on-empty-tile-message = A foundation already exists here!
-rcd-component-cannot-build-on-empty-tile-message = You can't build that without a foundation!
-rcd-component-must-build-on-subfloor-message = You can only build that on exposed subfloor!
-rcd-component-cannot-build-on-subfloor-message = You can't build that on exposed subfloor!
-rcd-component-cannot-build-on-occupied-tile-message = You can't build here, the space is already occupied!
-rcd-component-cannot-build-identical-tile = That tile already exists there!
-rcd-component-cannot-build-identical-entity = That already exists there!
+rcd-component-examine-mode-details = Сейчас установлен режим «{$mode}».
+rcd-component-examine-build-details = Сейчас установлена постройка: {MAKEPLURAL($name)}.
 
 
-### Category names
+### Сообщения о взаимодействии
 
-rcd-component-walls-and-flooring = Walls and flooring
-rcd-component-windows-and-grilles = Windows and grilles
-rcd-component-airlocks = Airlocks
-rcd-component-electrical = Electrical
-rcd-component-lighting = Lighting
+# Смена режима
+rcd-component-change-mode = РСУ переключён в режим «{$mode}».
+rcd-component-change-build-mode = РСУ теперь строит: {MAKEPLURAL($name)}.
+
+# Количество зарядов
+rcd-component-no-ammo-message = В РСУ закончились заряды!
+rcd-component-insufficient-ammo-message = В РСУ недостаточно зарядов!
+
+# Демонтаж
+rcd-component-tile-indestructible-message = Эту плитку нельзя демонтировать!
+rcd-component-deconstruct-target-not-on-whitelist-message = Это нельзя демонтировать!
+rcd-component-nothing-to-deconstruct-message = Здесь нечего демонтировать!
+rcd-component-tile-obstructed-message = Нельзя демонтировать плитки, если на них что-то находится!
+
+# Строительство
+rcd-component-no-valid-grid = Вы слишком далеко в открытом космосе, чтобы строить здесь!
+rcd-component-must-build-on-empty-tile-message = Здесь уже есть основание!
+rcd-component-cannot-build-on-empty-tile-message = Нельзя построить это без основания!
+rcd-component-must-build-on-subfloor-message = Это можно построить только на открытом черновом полу!
+rcd-component-cannot-build-on-subfloor-message = Нельзя построить это на открытом черновом полу!
+rcd-component-cannot-build-on-occupied-tile-message = Нельзя строить здесь, это место уже занято!
+rcd-component-cannot-build-identical-tile = Такая плитка уже есть!
+rcd-component-cannot-build-identical-entity = Это уже существует!
 
 
-### Prototype names (note: constructable items will be puralized)
+### Названия категорий
 
-rcd-component-deconstruct = deconstruct
-rcd-component-floor-steel = steel tile
-rcd-component-plating = hull plate
+rcd-component-walls-and-flooring = Стены и напольные покрытия
+rcd-component-windows-and-grilles = Окна и решётки
+rcd-component-airlocks = Шлюзы
+rcd-component-electrical = Электрика
+rcd-component-lighting = Освещение
+
+
+### Названия прототипов (примечание: названия строящихся объектов будут во множественном числе)
+
+rcd-component-deconstruct = демонтировать
+rcd-component-floor-steel = стальная плитка
+rcd-component-plating = обшивка корпуса

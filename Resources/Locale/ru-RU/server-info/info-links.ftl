@@ -1,8 +1,8 @@
-### Strings for link buttons shown in the launcher's server description.
+### Строки для кнопок ссылок в описании сервера в лаунчере.
 
 info-link-discord = Discord
-info-link-forum = Forum
+info-link-forum = Форум
 info-link-github = GitHub
-info-link-website = Website
-info-link-wiki = Wiki
+info-link-website = Сайт
+info-link-wiki = Вики
 info-link-telegram = Telegram

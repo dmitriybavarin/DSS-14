@@ -1,8 +1,6 @@
 ### Общие слова и выражения, используемые в различных контекстах
 
 generic-not-available-shorthand = Н/Д
-generic-article-a = ТЕСТОВОЕ УБРАТЬ В ПЕРЕВОДЕ generic.ftl
-generic-article-an = ТЕСТОВОЕ УБРАТЬ В ПЕРЕВОДЕ generic.ftl
 
 generic-and = и
 generic-or = или

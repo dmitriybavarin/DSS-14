@@ -1,13 +1,13 @@
-comp-containment-turned-on = The containment field generator boots up.
-comp-containment-turned-off = The containment field generator shuts down.
+comp-containment-turned-on = Генератор поля сдерживания запускается.
+comp-containment-turned-off = Генератор поля сдерживания отключается.
 
-comp-containment-on = It's switched [color=green]on[/color], ready to generate a connection.
-comp-containment-off = It's switched [color=red]off[/color].
+comp-containment-on = Он [color=green]включён[/color] и готов установить соединение.
+comp-containment-off = Он [color=red]выключен[/color].
 
-comp-containment-connected = The containment field generator shoots out a light as it establishes a connection!
-comp-containment-disconnected = The containment field generator light fades away, severing the connection.
+comp-containment-connected = Генератор поля сдерживания вспыхивает светом, устанавливая соединение!
+comp-containment-disconnected = Свет генератора поля сдерживания гаснет, разрывая соединение.
 
-comp-containment-anchor-warning = You cannot unanchor the containment field generator while it's on or connected!
-comp-containment-toggle-warning = You cannot turn the generator off while it's connected.
+comp-containment-anchor-warning = Нельзя открепить генератор поля сдерживания, пока он включён или подключён!
+comp-containment-toggle-warning = Нельзя выключить генератор, пока он подключён.
 
-comp-field-vaporized = The {$entity} hits the field and vaporizes into nothing!
+comp-field-vaporized = {$entity} попадает в поле и испаряется без остатка!

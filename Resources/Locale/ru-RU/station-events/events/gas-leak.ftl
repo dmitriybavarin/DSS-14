@@ -1,2 +1,2 @@
-station-event-gas-leak-start-announcement = Attention crew, there is a gas leak on the station. We advise you to avoid the area and wear suit internals in the meantime.
-station-event-gas-leak-end-announcement = The source of the gas leak has been fixed. Please be cautious around areas with gas remaining.
+station-event-gas-leak-start-announcement = Внимание, экипаж! На станции обнаружена утечка газа. Рекомендуем избегать этой зоны и на время включить подачу воздуха в скафандре.
+station-event-gas-leak-end-announcement = Источник утечки газа устранён. Пожалуйста, будьте осторожны в зонах, где остался газ.

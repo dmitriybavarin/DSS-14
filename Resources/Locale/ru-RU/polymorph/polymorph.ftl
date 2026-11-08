@@ -1,7 +1,7 @@
-polymorph-self-action-name = Polymorph ({CAPITALIZE($target)})
-polymorph-self-action-description = Instantly polymorph yourself into {$target}.
+polymorph-self-action-name = Превращение ({CAPITALIZE($target)})
+polymorph-self-action-description = Мгновенно превратиться в {$target}.
 
-polymorph-popup-generic = {CAPITALIZE(THE($parent))} turned into {$child}.
-polymorph-revert-popup-generic = {CAPITALIZE(THE($parent))} reverted back into {$child}.
+polymorph-popup-generic = {CAPITALIZE(THE($parent))} превращается в {$child}.
+polymorph-revert-popup-generic = {CAPITALIZE(THE($parent))} возвращается в облик {$child}.
 
-polymorph-paused-map-name = Polymorph body storage map
+polymorph-paused-map-name = Карта хранения тел для превращений

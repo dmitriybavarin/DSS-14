@@ -1,1 +1,1 @@
-station-tracker-component-examine = It is linked to the [color=lightgray]{ $stationName }[/color] station.
+station-tracker-component-examine = Привязан к станции [color=lightgray]{ $stationName }[/color].

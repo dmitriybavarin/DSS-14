@@ -1,4 +1,4 @@
-objective-condition-kill-person-title = Kill or maroon {$targetName}, {CAPITALIZE($job)}
-objective-condition-kill-maroon-title = Kill and maroon {$targetName}, {CAPITALIZE($job)}
-objective-condition-kill-station-ai = Destroy {$targetName}, {CAPITALIZE($job)} and ensure they remain out of commission.
-objective-condition-maroon-person-title = Prevent {$targetName}, {CAPITALIZE($job)} from reaching CentComm.
+objective-condition-kill-person-title = Убейте {$targetName}, {CAPITALIZE($job)}, или оставьте его дрейфовать в космосе
+objective-condition-kill-maroon-title = Убейте {$targetName}, {CAPITALIZE($job)}, и оставьте его дрейфовать в космосе
+objective-condition-kill-station-ai = Уничтожьте {$targetName}, {CAPITALIZE($job)}, и убедитесь, что он больше не функционирует.
+objective-condition-maroon-person-title = Не дайте {$targetName}, {CAPITALIZE($job)}, добраться до Центрального командования.

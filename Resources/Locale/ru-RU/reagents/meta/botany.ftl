@@ -1,29 +1,29 @@
-reagent-name-e-z-nutrient = EZ nutrient
-reagent-desc-e-z-nutrient = Give your plants some of those EZ nutrients! Dionas find this delicious.
+reagent-name-e-z-nutrient = EZ удобрение
+reagent-desc-e-z-nutrient = Подкорми свои растения лёгким удобрением! Дионы считают его вкуснейшим лакомством.
 
 reagent-name-left4-zed = left-4-zed
-reagent-desc-left4-zed = A cocktail of mutagenic compounds that gives nutrients, harms and affects plant life's genome.
+reagent-desc-left4-zed = Смесь мутагенных соединений, которая насыщает растения питательными веществами, наносит им вред и влияет на их геном.
 
-reagent-name-mutagenic-fertilizer = mutagenic fertilizer
-reagent-desc-mutagenic-fertilizer = A pungent fertilizer that mutates plants while keeping them edible.
+reagent-name-mutagenic-fertilizer = мутагенное удобрение
+reagent-desc-mutagenic-fertilizer = Едкое удобрение, вызывающее мутации растений, но сохраняющее их съедобность.
 
-reagent-name-pest-killer = pest killer
-reagent-desc-pest-killer = A mixture that targets pests. While useful it slowly poisons plants with toxins, be careful when using it.
+reagent-name-pest-killer = средство от вредителей
+reagent-desc-pest-killer = Смесь для борьбы с вредителями. Несмотря на свою полезность, она медленно отравляет растения токсинами. Используйте с осторожностью.
 
 reagent-name-plant-b-gone = plant-B-gone
-reagent-desc-plant-b-gone = A harmful toxic mixture to kill plantlife. Very effective against kudzu.
+reagent-desc-plant-b-gone = Вредная токсичная смесь для уничтожения растительности. Особенно эффективна против кудзу.
 
 reagent-name-robust-harvest = robust harvest
-reagent-desc-robust-harvest = A highly effective fertilizer with a limited potency-boosting effect on plants. Use it cautiously, as excessive application can reduce plant yield. It has a particularly beneficial effect on dionas.
+reagent-desc-robust-harvest = Высокоэффективное удобрение, немного повышающее силу растений. Используйте осторожно: чрезмерное применение может снизить урожайность. Особенно благотворно влияет на дион.
 
-reagent-name-weed-killer = weed killer
-reagent-desc-weed-killer = A mixture that targets weeds. Very effective against kudzu. While useful it slowly poisons plants with toxins, be careful when using it.
+reagent-name-weed-killer = средство от сорняков
+reagent-desc-weed-killer = Смесь для борьбы с сорняками. Особенно эффективна против кудзу. Несмотря на свою полезность, она медленно отравляет растения токсинами. Используйте с осторожностью.
 
-reagent-name-ammonia = ammonia
-reagent-desc-ammonia = An effective fertilizer, it gives your plants some nutrients.
+reagent-name-ammonia = аммиак
+reagent-desc-ammonia = Эффективное удобрение, снабжающее растения питательными веществами.
 
-reagent-name-diethylamine = diethylamine
-reagent-desc-diethylamine = A very potent fertilizer, treats plants with nutrients, eliminates pests, and sometimes it can even speed up growth.
+reagent-name-diethylamine = диэтиламин
+reagent-desc-diethylamine = Очень мощное удобрение, насыщающее растения питательными веществами, уничтожающее вредителей и иногда даже ускоряющее рост.
 
-reagent-name-sedin = sedin
-reagent-desc-sedin = A modified version of diethylamine that can restore seeds on plants at the cost of potency.
+reagent-name-sedin = седин
+reagent-desc-sedin = Модифицированная версия диэтиламина, способная восстанавливать семена на растениях в ущерб их силе.

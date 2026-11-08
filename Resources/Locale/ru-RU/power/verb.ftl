@@ -1,2 +1,2 @@
-# debug verb for allowing devices to work without requiring power.
-verb-debug-toggle-need-power = Toggle Power
+# отладочное действие, позволяющее устройствам работать без питания.
+verb-debug-toggle-need-power = Переключить питание

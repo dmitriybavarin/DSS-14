@@ -1,17 +1,16 @@
-round-end-summary-window-title = Round End Summary
-round-end-summary-window-round-end-summary-tab-title = Round Information
-round-end-summary-window-player-manifest-tab-title = Player Manifest
-round-end-summary-window-round-id-label = Round [color=white]#{$roundId}[/color] has ended.
-round-end-summary-window-gamemode-name-label = The game mode was [color=white]{$gamemode}[/color].
-round-end-summary-window-duration-label = It lasted for [color=yellow]{$hours} hours, {$minutes} minutes, and {$seconds} seconds.
-round-end-summary-window-player-info-if-observer-text = [color=gray]{$playerOOCName}[/color] was [color=lightblue]{$playerICName}[/color], an observer.
-round-end-summary-window-player-info-if-not-observer-text = [color=gray]{$playerOOCName}[/color] was [color={$icNameColor}]{$playerICName}[/color] playing role of [color=orange]{$playerRole}[/color].
-round-end-summary-window-player-manifest-tab-search-placeholder = Search players, roles, types...
-round-end-summary-window-player-manifest-tab-sort-character = Character
-round-end-summary-window-player-manifest-tab-sort-role = Role
-round-end-summary-window-player-manifest-tab-sort-player-type = Type
-round-end-summary-window-player-manifest-tab-sort-player = Player
-round-end-summary-window-player-manifest-tab-sort-player-type-antag = Antagonist
-round-end-summary-window-player-manifest-tab-sort-player-type-crew = Crew
-round-end-summary-window-player-manifest-tab-sort-player-type-observer = Observer
-
+round-end-summary-window-title = Итоги раунда
+round-end-summary-window-round-end-summary-tab-title = Информация о раунде
+round-end-summary-window-player-manifest-tab-title = Список игроков
+round-end-summary-window-round-id-label = Раунд [color=white]#{$roundId}[/color] завершён.
+round-end-summary-window-gamemode-name-label = Игровой режим: [color=white]{$gamemode}[/color].
+round-end-summary-window-duration-label = Продолжительность: [color=yellow]{$hours} ч. {$minutes} мин. {$seconds} сек.
+round-end-summary-window-player-info-if-observer-text = [color=gray]{$playerOOCName}[/color] играл за [color=lightblue]{$playerICName}[/color], наблюдателя.
+round-end-summary-window-player-info-if-not-observer-text = [color=gray]{$playerOOCName}[/color] играл за [color={$icNameColor}]{$playerICName}[/color] в роли [color=orange]{$playerRole}[/color].
+round-end-summary-window-player-manifest-tab-search-placeholder = Поиск игроков, ролей, типов...
+round-end-summary-window-player-manifest-tab-sort-character = Персонаж
+round-end-summary-window-player-manifest-tab-sort-role = Роль
+round-end-summary-window-player-manifest-tab-sort-player-type = Тип игрока
+round-end-summary-window-player-manifest-tab-sort-player = Игрок
+round-end-summary-window-player-manifest-tab-sort-player-type-antag = Антагонист
+round-end-summary-window-player-manifest-tab-sort-player-type-crew = Экипаж
+round-end-summary-window-player-manifest-tab-sort-player-type-observer = Наблюдатель

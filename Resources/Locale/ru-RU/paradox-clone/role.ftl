@@ -1,10 +1,10 @@
-paradox-clone-round-end-agent-name = paradox clone
+paradox-clone-round-end-agent-name = парадоксальный клон
 
-objective-issuer-paradox = [color=lightblue]Paradox[/color]
+objective-issuer-paradox = [color=lightblue]Парадокс[/color]
 
 paradox-clone-role-greeting =
-    You've been thrown into a parallel reality!
-    Your existence here is an unstable paradox. You must find, kill, and replace this reality's version of you so that you can go back to living your normal life.
-    Remember: only one of you two can survive.
+    Вас забросило в параллельную реальность!
+    Ваше существование здесь является нестабильным парадоксом. Вы должны найти, убить и заменить версию себя из этой реальности, чтобы вернуться к привычной жизни.
+    Помните: выжить может только один из вас двоих.
 
-paradox-clone-ghost-name-modifier = {$baseName} (clone)
+paradox-clone-ghost-name-modifier = {$baseName} (клон)

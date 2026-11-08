@@ -1,40 +1,40 @@
-# Implants
+# Импланты
 
-uplink-storage-implanter-name = Storage Implanter
-uplink-storage-implanter-desc = A bluespace marvel capable of hiding two pistols-worth of goodies. Immediately useful for stashing the empty implanter.
+uplink-storage-implanter-name = Имплантер хранилища
+uplink-storage-implanter-desc = Чудо блюспейс-технологий, способное спрятать содержимое двух пистолетных магазинов. Пригодится даже для того, чтобы спрятать опустевший имплантер.
 
-uplink-freedom-implanter-name = Freedom Implanter
-uplink-freedom-implanter-desc = Get away from those nasty sec officers with this three use implant!
+uplink-freedom-implanter-name = Имплантер свободы
+uplink-freedom-implanter-desc = Избавьтесь от назойливых сотрудников службы безопасности с помощью этого импланта на три применения!
 
-uplink-scram-implanter-name = Scram Implanter
-uplink-scram-implanter-desc = A 2-use implant which teleports you within a medium radius. Attempts to teleport you onto an unobstructed tile, but may sometimes fail to do so. Life insurance not included.
+uplink-scram-implanter-name = Имплантер экстренной телепортации
+uplink-scram-implanter-desc = Имплант на два применения, телепортирующий вас на небольшое расстояние. Пытается переместить вас на свободную от препятствий клетку, но иногда может потерпеть неудачу. Страховка жизни не прилагается.
 
-uplink-dna-scrambler-implanter-name = DNA Scrambler Implanter
-uplink-dna-scrambler-implanter-desc = A single use implant that can be activated to modify your DNA and give you a completely new look.
+uplink-dna-scrambler-implanter-name = Имплантер изменения ДНК
+uplink-dna-scrambler-implanter-desc = Одноразовый имплант, который можно активировать, чтобы изменить свою ДНК и полностью преобразить внешность.
 
-uplink-emp-implanter-name = EMP Implanter
-uplink-emp-implanter-desc = Detonates a small EMP pulse on activation that drains nearby electronics of their power, can be used three times before the internal battery runs out. Very short range, use wisely!
+uplink-emp-implanter-name = ЭМИ-имплантер
+uplink-emp-implanter-desc = При активации создаёт небольшой импульс ЭМИ, разряжающий находящуюся поблизости электронику. Можно использовать трижды, прежде чем сядет встроенная батарея. Очень малая дальность действия, используйте с умом!
 
-uplink-radio-implanter-name = Radio Implanter
-uplink-radio-implanter-desc = Implants a Syndicate radio, allowing covert communication without a headset.
+uplink-radio-implanter-name = Радиоимплантер
+uplink-radio-implanter-desc = Вживляет радио Синдиката, позволяющее тайно общаться без гарнитуры.
 
-uplink-micro-bomb-implanter-name = Micro Bomb Implanter
-uplink-micro-bomb-implanter-desc = Explode on death or manual activation with this implant. Destroys the body with all equipment.
+uplink-micro-bomb-implanter-name = Имплантер микробомбы
+uplink-micro-bomb-implanter-desc = Взрывается после смерти или при ручной активации. Уничтожает тело вместе со всем снаряжением.
 
-uplink-macro-bomb-implanter-name = Macro Bomb Implanter
-uplink-macro-bomb-implanter-desc = Inject this and on death you'll create a large explosion. Huge team casualty cost, use at own risk. Replaces internal micro bomb.
+uplink-macro-bomb-implanter-name = Имплантер макробомбы
+uplink-macro-bomb-implanter-desc = Вживите этот имплант, чтобы после смерти вызвать мощный взрыв. Огромные потери среди союзников неизбежны. Используйте на свой страх и риск. Заменяет встроенную микробомбу.
 
-uplink-death-acidifier-implant-name = Death Acidifier Implant
-uplink-death-acidifier-implant-desc = Completely melts the user and their equipment on use or death.
+uplink-death-acidifier-implant-name = Кислотный имплант смерти
+uplink-death-acidifier-implant-desc = Полностью растворяет пользователя и его снаряжение при активации или смерти.
 
-uplink-uplink-implanter-name = Uplink Implanter
-uplink-uplink-implanter-desc = Stealthily order equipment without the need for a PDA. Apply telecrystals directly to the forehead to transfer them to your BitCrystal Wallet!
+uplink-uplink-implanter-name = Имплантер аплинка
+uplink-uplink-implanter-desc = Заказывайте снаряжение скрытно, без КПК. Приложите телекристаллы прямо ко лбу, чтобы перенести их в свой кошелёк BitCrystal!
 
-uplink-deathrattle-implant-name = Box Of Deathrattle Implants
-uplink-deathrattle-implant-desc = A box containing enough deathrattle implants for the whole squad. Relays a message containing your position to the syndicate channel when you go into a critical state or die.
+uplink-deathrattle-implant-name = Коробка имплантов предсмертного сигнала
+uplink-deathrattle-implant-desc = Коробка с имплантами предсмертного сигнала для всего отряда. Передаёт сообщение с вашими координатами в канал Синдиката, когда вы переходите в критическое состояние или умираете.
 
-uplink-fake-mindshield-name = Fake Mindshield
-uplink-fake-mindshield-desc = An implant which can be toggled to trick Heads-up displays into thinking you are mindshielded (Nanotrasen brand implanter not provided.) The cornerstone of a successful Command or Security disguise.
+uplink-fake-mindshield-name = Поддельная защита разума
+uplink-fake-mindshield-desc = Имплант с переключаемым эффектом, который обманывает визоры, заставляя их считать, что у вас установлен имплант защиты разума. (Имплантер марки Nanotrasen не прилагается.) Основа успешной маскировки под командование или службу безопасности.
 
-uplink-voice-mask-implanter-name = Identity Mask Implanter
-uplink-voice-mask-implanter-desc = Modifies your vocal cords and facial structure to be able to mimic anyone you could imagine. Be sure to set your name before speaking, or else you'll give yourself away.
+uplink-voice-mask-implanter-name = Имплантер маскировки личности
+uplink-voice-mask-implanter-desc = Изменяет ваши голосовые связки и структуру лица, позволяя подражать кому угодно. Не забудьте сменить имя до того, как заговорите, иначе раскроете себя.

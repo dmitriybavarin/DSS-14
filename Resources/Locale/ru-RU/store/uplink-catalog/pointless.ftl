@@ -1,58 +1,58 @@
-# Pointless
+# Бесполезное
 
-uplink-barber-scissors-name = Barber Scissors
-uplink-barber-scissors-desc = A good tool to give your fellow agent a nice haircut, unless you want to give it to yourself.
+uplink-barber-scissors-name = Парикмахерские ножницы
+uplink-barber-scissors-desc = Отличный инструмент, чтобы сделать своему коллеге-агенту стильную стрижку. Или себе, если захочется.
 
-uplink-snack-box-name = Syndicate Snack Box
-uplink-snack-box-desc = A box of delicious snacks and drinks to eat alone or with your team. Includes 1 toy you didn't want.
+uplink-snack-box-name = Коробка закусок Синдиката
+uplink-snack-box-desc = Коробка с вкусными закусками и напитками, которыми можно насладиться в одиночку или вместе с командой. В комплекте одна ненужная вам игрушка.
 
-uplink-clothing-conducting-gloves-name = Conducting Gloves
-uplink-clothing-conducting-gloves-desc = Looks exactly like insulated gloves, but shocks you far worse than if you had nothing at all! Best given as a gift to passengers you really don't like.
+uplink-clothing-conducting-gloves-name = Токопроводящие перчатки
+uplink-clothing-conducting-gloves-desc = Выглядят точь-в-точь как изолирующие перчатки, но бьют током гораздо сильнее, чем если бы вы были вовсе без перчаток! Отличный подарок для пассажиров, которые вам особенно неприятны.
 
-uplink-revolver-cap-gun-name = Cap Gun
-uplink-revolver-cap-gun-desc = Looks almost like the real thing! Ages 8 and up.
+uplink-revolver-cap-gun-name = Пистолет с пистонами
+uplink-revolver-cap-gun-desc = Почти как настоящий! Для детей от 8 лет.
 
-uplink-syndicate-stamp-name = Syndicate Rubber Stamp
-uplink-syndicate-stamp-desc = A rubber stamp for stamping important documents.
+uplink-syndicate-stamp-name = Резиновый штамп Синдиката
+uplink-syndicate-stamp-desc = Резиновый штамп для заверения важных документов.
 
-uplink-cat-ears-name = Cat Ears
-uplink-cat-ears-desc = UwU
+uplink-cat-ears-name = Кошачьи ушки
+uplink-cat-ears-desc = УвУ
 
-uplink-outlaw-hat-name = Outlaw Hat
-uplink-outlaw-hat-desc = A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
+uplink-outlaw-hat-name = Шляпа бандита
+uplink-outlaw-hat-desc = Шляпа, с которой кажется, будто у вас есть пистолет с зарубками: один и ещё девятнадцать.
 
-uplink-outlaw-glasses-name = Outlaw Glasses
-uplink-outlaw-glasses-desc = A must for every self-respecting undercover agent.
+uplink-outlaw-glasses-name = Очки бандита
+uplink-outlaw-glasses-desc = Незаменимый аксессуар для любого уважающего себя агента под прикрытием.
 
-uplink-costume-pyjama-name = Syndicate Pyjama Duffel Bag
-uplink-costume-pyjama-desc = Contains 3 pairs of syndicate pyjamas and 4 plushies for the ultimate sleepover.
+uplink-costume-pyjama-name = Спортивная сумка с пижамами Синдиката
+uplink-costume-pyjama-desc = Внутри 3 комплекта пижам Синдиката и 4 плюшевые игрушки для идеальной ночёвки с друзьями.
 
-uplink-costume-clown-name = Clown Costume Duffel Bag
-uplink-costume-clown-desc = Contains a complete Clown outfit. Includes PDA and service radio.
+uplink-costume-clown-name = Спортивная сумка с костюмом клоуна
+uplink-costume-clown-desc = Содержит полный костюм клоуна, включая КПК и сервисную рацию.
 
-uplink-carp-suit-bundle-name = Carp Suit Duffel Bag
-uplink-carp-suit-bundle-desc = Contains a carp suit and some friends to play with.
+uplink-carp-suit-bundle-name = Спортивная сумка с костюмом карпа
+uplink-carp-suit-bundle-desc = Содержит костюм карпа и несколько друзей для игр.
 
-uplink-operative-suit-name = Operative Jumpsuit
-uplink-operative-suit-desc = Tactical uniform worn by the Syndicate's nuclear operatives. No benefits other than looking cool.
+uplink-operative-suit-name = Комбинезон оперативника
+uplink-operative-suit-desc = Тактическая форма ядерных оперативников Синдиката. Никаких преимуществ, кроме крутого внешнего вида.
 
-uplink-operative-skirt-name = Operative Jumpskirt
-uplink-operative-skirt-desc = Tactical uniform worn by the Syndicate's nuclear operatives. No benefits other than looking cool.
+uplink-operative-skirt-name = Комбинезон-юбка оперативника
+uplink-operative-skirt-desc = Тактическая форма ядерных оперативников Синдиката. Никаких преимуществ, кроме крутого внешнего вида.
 
-uplink-balloon-name = Syndie Balloon
-uplink-balloon-desc = Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
+uplink-balloon-name = Воздушный шар Синдиката
+uplink-balloon-desc = Вручается храбрейшим душам, пережившим аттракцион «Атомный смерч» в Синдипарке.
 
-uplink-scarf-syndie-red-name = Striped syndicate red scarf
-uplink-scarf-syndie-red-desc = A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+uplink-scarf-syndie-red-name = Красный полосатый шарф Синдиката
+uplink-scarf-syndie-red-desc = Стильный красный шарф Синдиката в полоску. Идеальный зимний аксессуар для тех, кто разбирается в моде, а также для тех, кто не прочь что-нибудь украсть.
 
-uplink-scarf-syndie-green-name = Striped syndicate green scarf
-uplink-scarf-syndie-green-desc = A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+uplink-scarf-syndie-green-name = Зелёный полосатый шарф Синдиката
+uplink-scarf-syndie-green-desc = Стильный зелёный шарф Синдиката в полоску. Идеальный зимний аксессуар для тех, кто разбирается в моде, а также для тех, кто не прочь что-нибудь украсть.
 
-uplink-business-card-name = Syndicate Business Card
-uplink-business-card-desc = A business card that you can give to someone to demonstrate your involvement in the syndicate or leave at the crime scene in order to make fun of the detective. You can buy no more than three of them.
+uplink-business-card-name = Визитка Синдиката
+uplink-business-card-desc = Визитка, которую можно вручить кому-нибудь, чтобы продемонстрировать свою связь с Синдикатом, или оставить на месте преступления, чтобы подшутить над детективом. Можно приобрести не более трёх штук.
 
-uplink-decoy-kit-name = Decoy Kit
-uplink-decoy-kit-desc = State-of-the-art distraction technology straight from RND. Comes with five realistic balloons, four decoy grenades, and some snap poppers!
+uplink-decoy-kit-name = Набор приманок
+uplink-decoy-kit-desc = Передовые технологии отвлечения внимания прямиком из НИО. В комплекте пять реалистичных воздушных шаров, четыре гранаты-приманки и несколько хлопушек!
 
-uplink-contraband-lighter-name = Contraband Lighter box
-uplink-contraband-lighter-desc = A mystery box guaranteed to contain a syndicate branded lighter. No fuel required
+uplink-contraband-lighter-name = Коробка с зажигалками контрабандиста
+uplink-contraband-lighter-desc = Таинственная коробка, в которой гарантированно находится зажигалка с символикой Синдиката. Топливо не требуется.

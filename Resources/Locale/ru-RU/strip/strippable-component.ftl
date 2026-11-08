@@ -1,28 +1,28 @@
-strippable-component-not-holding-anything = You aren't holding anything!
-strippable-component-cannot-drop = You can't drop that!
-strippable-component-item-slot-occupied-message = {CAPITALIZE(THE($owner))} already has something there!
-strippable-component-cannot-equip-message = {CAPITALIZE(THE($owner))} cannot equip that there!
-strippable-component-cannot-put-message = {CAPITALIZE(THE($owner))} cannot put that there!
-strippable-component-item-slot-free-message = {CAPITALIZE(THE($owner))} has nothing there!
-strippable-component-cannot-unequip-message = {CAPITALIZE(THE($owner))} cannot unequip that!
-strippable-component-cannot-drop-message = {CAPITALIZE(THE($owner))} cannot drop that!
-strippable-component-alert-owner = {CAPITALIZE(THE($user))} is removing your {$item}!
-strippable-component-alert-owner-hidden = You feel someone fumbling in your {$slot}!
-strippable-component-alert-owner-insert = {CAPITALIZE(THE($user))} is putting {INDEFINITE($item)} {$item} on you!
-strippable-component-alert-owner-insert-hand = {CAPITALIZE(THE($user))} is putting {INDEFINITE($item)} {$item} in your hand!
+strippable-component-not-holding-anything = Вы ничего не держите в руках!
+strippable-component-cannot-drop = Вы не можете это выбросить!
+strippable-component-item-slot-occupied-message = У {CAPITALIZE(THE($owner))} уже что-то здесь есть!
+strippable-component-cannot-equip-message = {CAPITALIZE(THE($owner))} не может надеть это сюда!
+strippable-component-cannot-put-message = {CAPITALIZE(THE($owner))} не может поместить это сюда!
+strippable-component-item-slot-free-message = У {CAPITALIZE(THE($owner))} здесь ничего нет!
+strippable-component-cannot-unequip-message = {CAPITALIZE(THE($owner))} не может снять это!
+strippable-component-cannot-drop-message = {CAPITALIZE(THE($owner))} не может выбросить это!
+strippable-component-alert-owner = {CAPITALIZE(THE($user))} снимает с вас предмет {$item}!
+strippable-component-alert-owner-hidden = Вы чувствуете, как кто-то шарит в вашем слоте «{$slot}»!
+strippable-component-alert-owner-insert = {CAPITALIZE(THE($user))} надевает на вас {INDEFINITE($item)} {$item}!
+strippable-component-alert-owner-insert-hand = {CAPITALIZE(THE($user))} вкладывает вам в руку {INDEFINITE($item)} {$item}!
 
-# generic warning for when a user interacts with your equipped items.
-strippable-component-alert-owner-interact = {CAPITALIZE(THE($user))} is fumbling around with your {$item}!
+# Общее предупреждение при взаимодействии с надетыми на вас предметами.
+strippable-component-alert-owner-interact = {CAPITALIZE(THE($user))} возится с вашим предметом {$item}!
 
-# StripVerb
-strip-verb-get-data-text = Strip
-strip-all-verb-get-data-text = Strip All
+# Действия снятия
+strip-verb-get-data-text = Обыскать
+strip-all-verb-get-data-text = Снять все
 
-## UI
+## Интерфейс
 
-strippable-bound-user-interface-stripping-menu-title = {CAPITALIZE($ownerName)}'s inventory
-strippable-bound-user-interface-stripping-menu-ensnare-button = Remove Leg Restraints
-strippable-bound-user-interface-stripping-menu-admin-button = Toggle Admin View
-strippable-bound-user-interface-stripping-menu-admin-button-tooltip = Toggles the admin overlay.
-    Padlock -> Contraband
-    "C" -> Chameleon
+strippable-bound-user-interface-stripping-menu-title = Инвентарь {CAPITALIZE($ownerName)}
+strippable-bound-user-interface-stripping-menu-ensnare-button = Снять путы с ног
+strippable-bound-user-interface-stripping-menu-admin-button = Оверлей администратора
+strippable-bound-user-interface-stripping-menu-admin-button-tooltip = Переключает оверлей администратора.
+    Навесной замок -> Контрабанда
+    «C» -> Хамелеон

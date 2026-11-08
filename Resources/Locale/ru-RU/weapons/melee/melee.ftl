@@ -1,9 +1,9 @@
-melee-inject-failed-hardsuit = Your {$weapon} cannot inject through hardsuits!
+melee-inject-failed-hardsuit = Ваш {$weapon} не может вводить вещества сквозь скафандры!
 
-melee-balloon-pop = {CAPITALIZE(THE($balloon))} popped!
+melee-balloon-pop = {CAPITALIZE(THE($balloon))} лопается!
 
-melee-weapon-dealt-no-damage = {CAPITALIZE(THE($weapon))} is not damaging {THE($target)}!
-melee-self-weapon-dealt-no-damage = You are not damaging {THE($target)}!
+melee-weapon-dealt-no-damage = {CAPITALIZE(THE($weapon))} не наносит урон {THE($target)}!
+melee-self-weapon-dealt-no-damage = Вы не наносите урон {THE($target)}!
 
 # MeleeBatteryHitsLeftSystem
-examine-battery-hits-left = It has enough charge for [color={$color}]{$count}[/color] hits.
+examine-battery-hits-left = Заряда хватит на [color={$color}]{$count}[/color] ударов.

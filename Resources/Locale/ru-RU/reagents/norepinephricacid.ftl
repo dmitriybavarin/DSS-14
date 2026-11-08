@@ -1,8 +1,8 @@
-norepinephricacid-effect-eyelids = Your eyelids are rapidly twitching.
-norepinephricacid-effect-eyes-itch = Your eyes feel itchy.
-norepinephricacid-effect-vision-fade = You feel your vision fading.
-norepinephricacid-effect-vision-fail = You can feel your vision failing you.
-norepinephricacid-effect-eye-pain = You feel a deep pain in your eyes!
-norepinephricacid-effect-blindness = Your eyes cease function!
-norepinephricacid-effect-darkness = You are plunged into a world of darkness!
-norepinephricacid-effect-eye-disconnect = Your eyes feel like they're disconnecting!
+norepinephricacid-effect-eyelids = Ваши веки быстро дёргаются.
+norepinephricacid-effect-eyes-itch = Ваши глаза чешутся.
+norepinephricacid-effect-vision-fade = Вы чувствуете, как ваше зрение угасает.
+norepinephricacid-effect-vision-fail = Вы чувствуете, как зрение подводит вас.
+norepinephricacid-effect-eye-pain = Вы чувствуете глубокую боль в глазах!
+norepinephricacid-effect-blindness = Ваши глаза перестают функционировать!
+norepinephricacid-effect-darkness = Вы погружаетесь в мир тьмы!
+norepinephricacid-effect-eye-disconnect = Вам кажется, что ваши глаза отключаются!

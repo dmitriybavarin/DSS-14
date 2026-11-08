@@ -1,1 +1,1 @@
-ignis-inside-effect-light = Your blood feels like liquid fire.
+ignis-inside-effect-light = Ваша кровь словно жидкий огонь.

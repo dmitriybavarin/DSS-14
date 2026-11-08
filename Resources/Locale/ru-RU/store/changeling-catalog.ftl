@@ -1,49 +1,49 @@
-changeling-catalog-arm-blade-name = Retractable Armblade
-changeling-catalog-arm-blade-desc = Transform your arm into a terrifying blade made of flesh and bone. Can double as means of prying open powered doors. Can be toggled.
+changeling-catalog-arm-blade-name = Выдвижной клинок
+changeling-catalog-arm-blade-desc = Превратите руку в ужасающий клинок из плоти и костей. Также может использоваться для взлома запертых дверей с электроприводом. Можно включать и выключать.
 
-changeling-catalog-flesh-clothing-name = Flesh Clothing
-changeling-catalog-flesh-clothing-desc = Your body's surface will adapt to mirror the clothing of any person you are transforming into. However, these clothing items are non-functional and will make you easy to identify as a changeling if someone tries to remove them. Can be toggled.
+changeling-catalog-flesh-clothing-name = Плотяная одежда
+changeling-catalog-flesh-clothing-desc = Поверхность вашего тела будет изменяться, копируя одежду любого человека, в которого вы превращаетесь. Однако эта одежда не выполняет своих функций, а попытка снять её позволит легко распознать в вас генокрада. Можно включать и выключать.
 
-changeling-catalog-voice-mimic-name = Voice Mimicry
-changeling-catalog-voice-mimic-desc = Change your vocal coords at will to imitate existing (and imaginary) crew members. Perfect for luring in prey.
+changeling-catalog-voice-mimic-name = Имитация голоса
+changeling-catalog-voice-mimic-desc = Произвольно изменяйте свои голосовые связки, имитируя голоса существующих и вымышленных членов экипажа. Идеально подходит для заманивания жертв.
 
-changeling-catalog-biodegrade-name = Biodegrade
-changeling-catalog-biodegrade-desc = You learn to utilize acid glands within your body to vomit acid over constraints, setting yourself free.
+changeling-catalog-biodegrade-name = Биодеградация
+changeling-catalog-biodegrade-desc = Научитесь использовать кислотные железы своего тела, чтобы извергать кислоту на сковывающие вас путы и освобождаться.
 
-changeling-catalog-sting-dna-name = Extract DNA
-changeling-catalog-sting-dna-desc = Learn to utilize your stinger to absorb the identity of unsuspecting victims. Does not grant DNA to your store or count as devouring.
+changeling-catalog-sting-dna-name = Извлечение ДНК
+changeling-catalog-sting-dna-desc = Научитесь использовать жало, чтобы поглощать личность ничего не подозревающих жертв. Не добавляет ДНК в ваш запас и не считается пожиранием.
 
-changeling-catalog-blind-sting-name = Blind Sting
-changeling-catalog-blind-sting-desc = Causes eye damage and temporary blindness in the target. Good to escape or initiate a fight. Can be used on self.
+changeling-catalog-blind-sting-name = Ослепляющее жало
+changeling-catalog-blind-sting-desc = Повреждает глаза цели и временно ослепляет её. Полезно для побега или начала боя. Можно использовать на себе.
 
-changeling-catalog-cryogenic-sting-name = Cryogenic Sting
-changeling-catalog-cryogenic-sting-desc = Causes movement slowdown in the target. Perfect for keeping prey from running away. Can be used on self.
+changeling-catalog-cryogenic-sting-name = Криогенное жало
+changeling-catalog-cryogenic-sting-desc = Замедляет движение цели. Идеально подходит, чтобы не дать жертве убежать. Можно использовать на себе.
 
-changeling-catalog-lethal-sting-name = Lethal Sting
-changeling-catalog-lethal-sting-desc = Causes very slow damage to the target. Useless in combat, but ensures they will require medical attention. Can be used on self.
+changeling-catalog-lethal-sting-name = Смертельное жало
+changeling-catalog-lethal-sting-desc = Наносит цели очень медленный урон. Бесполезно в бою, но гарантирует, что ей потребуется медицинская помощь. Можно использовать на себе.
 
-changeling-catalog-mute-sting-name = Mute Sting
-changeling-catalog-mute-sting-desc = Causes the target to be incapable of speech. Imperceptible until the target tries to speak. Can be used on self.
+changeling-catalog-mute-sting-name = Немое жало
+changeling-catalog-mute-sting-desc = Лишает цель способности говорить. Эффект незаметен, пока цель не попытается заговорить. Можно использовать на себе.
 
-changeling-catalog-armblade-sting-name = Armblade Sting
-changeling-catalog-armblade-sting-desc = Causes the target to spontaneously grow a dulled armblade after a lengthy delay. Instant with increased duration when used on corpses. Can be used on self.
+changeling-catalog-armblade-sting-name = Жало клинка
+changeling-catalog-armblade-sting-desc = Заставляет цель отрастить затупленный клинок вместо руки после продолжительной задержки. При использовании на трупе срабатывает мгновенно, но действует дольше. Можно использовать на себе.
 
-changeling-catalog-hemotoxin-sting-name = Hemotoxin Sting
-changeling-catalog-hemotoxin-sting-desc = Causes extreme damage to the blood cells of the target. Very noticeable but very deadly if left untreated. Can be used on self.
+changeling-catalog-hemotoxin-sting-name = Гемотоксичное жало
+changeling-catalog-hemotoxin-sting-desc = Наносит серьёзный урон клеткам крови цели. Эффект очень заметен, но смертелен, если его не лечить. Можно использовать на себе.
 
-changeling-catalog-last-resort-name = Last Resort
-changeling-catalog-last-resort-desc = Gib your current body and escape as a weak head slug. If you infest a humanoid corpse, you can return to a full changeling body. Can only be bought when at least one body has been devoured.
+changeling-catalog-last-resort-name = Последний шанс
+changeling-catalog-last-resort-desc = Разорвите своё текущее тело на части и спаситесь в виде слабого слизня с головой. Заразив труп гуманоида, вы сможете восстановить полноценное тело генокрада. Можно приобрести, только если вы уже поглотили хотя бы одно тело.
 
-                                      Warning! This resets your progress as a changeling, removing your store purchases and absorbed identities!
+                                      Внимание! Это сбросит ваш прогресс генокрада, удалив все купленные способности и поглощённые личности!
 
-changeling-catalog-voice-mindshield-name = Fake Mindshield
-changeling-catalog-voice-mindshield-desc = Modify your neuron's natural waves to copy those produced by Nanotrasen mindshield implants, making you look mindshielded to security members. Can be toggled.
+changeling-catalog-voice-mindshield-name = Поддельная защита разума
+changeling-catalog-voice-mindshield-desc = Измените естественные волны нейронов, чтобы имитировать сигналы имплантов защиты разума NanoTrasen. Для службы безопасности вы будете выглядеть защищённым от вмешательства в разум. Можно включать и выключать.
 
-changeling-catalog-night-vision-name = Night Vision
-changeling-catalog-night-vision-desc = You modify your photoreceptors and heighten your senses as to become able to see in complete darkness.
+changeling-catalog-night-vision-name = Ночное зрение
+changeling-catalog-night-vision-desc = Измените свои фоторецепторы и обострите чувства, чтобы видеть в полной темноте.
 
-changeling-catalog-horror-form-name = Horror Form
-changeling-catalog-horror-form-desc = Turns you into a nigh-unstoppable juggernaut. Using this ability is exhausting, as it burns through DNA points. When running out of DNA, you will be forced out of this form and stunned. Needs 3 devours to be purchased.
+changeling-catalog-horror-form-name = Форма ужаса
+changeling-catalog-horror-form-desc = Превращает вас в практически неостановимого разрушителя. Использование способности изнуряет вас, расходуя очки ДНК. Когда ДНК закончится, вы будете принудительно выведены из этой формы и оглушены. Для покупки требуется 3 поглощённых тела.
 
-changeling-catalog-fleshtomb-name = Fleshtomb
-changeling-catalog-fleshtomb-desc = Preserve a corpse in a fleshy prison, slowly harvesting their genetic code for your own use. It slowly generates DNA, but is very fragile and must be preserved in proper atmosphere to not fall apart.
+changeling-catalog-fleshtomb-name = Плотяная гробница
+changeling-catalog-fleshtomb-desc = Заключите труп в плотяную темницу и постепенно извлекайте его генетический код для собственного использования. Способность медленно генерирует ДНК, но темница очень хрупкая и требует подходящей атмосферы, иначе она распадётся.

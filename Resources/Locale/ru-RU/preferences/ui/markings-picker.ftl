@@ -1,68 +1,67 @@
-markings-search = Search
+markings-search = Поиск
 -markings-selection = { $selectable ->
-    [0] You have no markings remaining.
-    [one] You can select one more marking.
-   *[other] You can select { $selectable } more markings.
+    [0] У вас не осталось доступных отметин.
+    [one] Вы можете выбрать ещё одну отметину.
+   *[other] Вы можете выбрать ещё {$selectable} отметин.
 }
 markings-limits = { $required ->
     [true] { $count ->
-        [-1] Select at least one marking.
-        [0] You cannot select any markings, but somehow, you have to? This is a bug.
-        [one] Select one marking.
-       *[other] Select at least one marking and up to {$count} markings. { -markings-selection(selectable: $selectable) }
+        [-1] Выберите хотя бы одну отметину.
+        [0] Вы не можете выбрать ни одной отметины, но почему-то должны? Это ошибка.
+        [one] Выберите одну отметину.
+       *[other] Выберите хотя бы одну отметину и не более {$count}. { -markings-selection(selectable: $selectable) }
     }
    *[false] { $count ->
-        [-1] Select any number of markings.
-        [0] You cannot select any markings.
-        [one] Select up to one marking.
-       *[other] Select up to {$count} markings. { -markings-selection(selectable: $selectable) }
+        [-1] Выберите любое количество отметин.
+        [0] Вы не можете выбрать отметины.
+        [one] Выберите не более одной отметины.
+       *[other] Выберите не более {$count} отметин. { -markings-selection(selectable: $selectable) }
     }
 }
-markings-reorder = Reorder markings
+markings-reorder = Изменить порядок отметин
 
-humanoid-marking-modifier-respect-limits = Respect limits
-humanoid-marking-modifier-respect-group-sex = Respect group & sex restrictions
-humanoid-marking-modifier-base-layers = Base layers
-humanoid-marking-modifier-enable = Enable
-humanoid-marking-modifier-prototype-id = Prototype id:
+humanoid-marking-modifier-respect-limits = Соблюдать ограничения
+humanoid-marking-modifier-respect-group-sex = Учитывать ограничения группы и пола
+humanoid-marking-modifier-base-layers = Базовые слои
+humanoid-marking-modifier-enable = Включить
+humanoid-marking-modifier-prototype-id = ID прототипа:
 
-# Categories
+# Категории
 
-markings-organ-Torso = Torso
-markings-organ-Head = Head
-markings-organ-ArmLeft = Left Arm
-markings-organ-ArmRight = Right Arm
-markings-organ-HandRight = Right Hand
-markings-organ-HandLeft = Left Hand
-markings-organ-LegLeft = Left Leg
-markings-organ-LegRight = Right Leg
-markings-organ-FootLeft = Left Foot
-markings-organ-FootRight = Right Foot
-markings-organ-Eyes = Eyes
+markings-organ-Torso = Туловище
+markings-organ-Head = Голова
+markings-organ-ArmLeft = Левая рука
+markings-organ-ArmRight = Правая рука
+markings-organ-HandRight = Правая кисть
+markings-organ-HandLeft = Левая кисть
+markings-organ-LegLeft = Левая нога
+markings-organ-LegRight = Правая нога
+markings-organ-FootLeft = Левая стопа
+markings-organ-FootRight = Правая стопа
+markings-organ-Eyes = Глаза
 
-markings-layer-Special = Special
-markings-layer-Tail = Tail
-markings-layer-Tail-Moth = Wings
-markings-layer-Hair = Hair
-markings-layer-FacialHair = Facial Hair
-markings-layer-UndergarmentTop = Undershirt
-markings-layer-UndergarmentBottom = Underpants
-markings-layer-Chest = Chest
-markings-layer-Head = Head
-markings-layer-Snout = Snout
-markings-layer-SnoutCover = Snout (Cover)
-markings-layer-HeadSide = Head (Side)
-markings-layer-HeadTop = Head (Top)
-markings-layer-Eyes = Eyes
-markings-layer-OverEyes = Over Eyes
-markings-layer-RArm = Right Arm
-markings-layer-LArm = Left Arm
-markings-layer-RHand = Right Hand
-markings-layer-LHand = Left Hand
-markings-layer-RLeg = Right Leg
-markings-layer-LLeg = Left Leg
-markings-layer-RFoot = Right Foot
-markings-layer-LFoot = Left Foot
-markings-layer-Overlay = Overlay
-markings-layer-TailOverlay = Overlay
-
+markings-layer-Special = Особые
+markings-layer-Tail = Хвост
+markings-layer-Tail-Moth = Крылья
+markings-layer-Hair = Волосы
+markings-layer-FacialHair = Волосы на лице
+markings-layer-UndergarmentTop = Нижняя рубашка
+markings-layer-UndergarmentBottom = Нижнее бельё
+markings-layer-Chest = Грудь
+markings-layer-Head = Голова
+markings-layer-Snout = Морда
+markings-layer-SnoutCover = Морда (покрытие)
+markings-layer-HeadSide = Голова (сбоку)
+markings-layer-HeadTop = Голова (сверху)
+markings-layer-Eyes = Глаза
+markings-layer-OverEyes = Поверх глаз
+markings-layer-RArm = Правая рука
+markings-layer-LArm = Левая рука
+markings-layer-RHand = Правая кисть
+markings-layer-LHand = Левая кисть
+markings-layer-RLeg = Правая нога
+markings-layer-LLeg = Левая нога
+markings-layer-RFoot = Правая стопа
+markings-layer-LFoot = Левая стопа
+markings-layer-Overlay = Наложение
+markings-layer-TailOverlay = Наложение

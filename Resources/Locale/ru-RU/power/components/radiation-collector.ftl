@@ -1,11 +1,11 @@
-power-radiation-collector-gas-tank-missing = The plasma tank slot is [color=darkred]empty[/color].
-power-radiation-collector-gas-tank-present = The plasma tank slot is [color=darkgreen]filled[/color] and the tank indicator reads [color={$fullness ->
-    *[0]red]empty
-    [1]red]low
-    [2]yellow]half-full
-    [3]lime]full
+power-radiation-collector-gas-tank-missing = Слот плазменного баллона [color=darkred]пуст[/color].
+power-radiation-collector-gas-tank-present = Слот плазменного баллона [color=darkgreen]занят[/color], индикатор баллона показывает [color={$fullness ->
+    *[0]red]пусто
+    [1]red]мало
+    [2]yellow]наполовину
+    [3]lime]полно
 }[/color].
-power-radiation-collector-enabled = It's switched [color={$state ->
-    [true] darkgreen]on
-    *[false] darkred]off
+power-radiation-collector-enabled = Состояние: [color={$state ->
+    [true] darkgreen]включено
+    *[false] darkred]выключено
 }[/color].

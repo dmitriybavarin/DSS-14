@@ -1,32 +1,32 @@
-# Headings
-turret-controls-window-title = Autonomous Defense Control System
-turret-controls-window-turret-status-label = Linked devices [{$count}]
-turret-controls-window-armament-controls-label = Armament setting
-turret-controls-window-targeting-controls-label = Authorized personnel
+# Заголовки
+turret-controls-window-title = Система управления автономной обороной
+turret-controls-window-turret-status-label = Подключённые устройства [{$count}]
+turret-controls-window-armament-controls-label = Режим вооружения
+turret-controls-window-targeting-controls-label = Уполномоченный персонал
 
-# Status reports
-turret-controls-window-no-turrets = <! No linked devices !>
-turret-controls-window-turret-status = » {$device} - Status: {$status}
-turret-controls-window-turret-disabled = ***OFFLINE***
-turret-controls-window-turret-retracted = INACTIVE
-turret-controls-window-turret-retracting = DEACTIVATING
-turret-controls-window-turret-deployed = SEARCHING...
-turret-controls-window-turret-deploying = ACTIVATING
-turret-controls-window-turret-firing = ENGAGING TARGET
-turret-controls-window-turret-error = ERROR [404]
-turret-controls-window-turret-broken = ***INOPERABLE***
+# Отчёты о состоянии
+turret-controls-window-no-turrets = <! Нет подключённых устройств !>
+turret-controls-window-turret-status = » {$device} - Состояние: {$status}
+turret-controls-window-turret-disabled = ***НЕ В СЕТИ***
+turret-controls-window-turret-retracted = НЕАКТИВНА
+turret-controls-window-turret-retracting = ДЕАКТИВАЦИЯ
+turret-controls-window-turret-deployed = ПОИСК...
+turret-controls-window-turret-deploying = АКТИВАЦИЯ
+turret-controls-window-turret-firing = ПОРАЖЕНИЕ ЦЕЛИ
+turret-controls-window-turret-error = ОШИБКА [404]
+turret-controls-window-turret-broken = ***НЕИСПРАВНА***
 
-# Buttons
-turret-controls-window-safe = Inactive
-turret-controls-window-stun = Stun
-turret-controls-window-lethal = Lethal
-turret-controls-window-ignore = Ignore
-turret-controls-window-target = Target
+# Кнопки
+turret-controls-window-safe = Неактивный режим
+turret-controls-window-stun = Оглушение
+turret-controls-window-lethal = На поражение
+turret-controls-window-ignore = Игнорировать
+turret-controls-window-target = Цель
 turret-controls-window-access-group-label = {$prefix} {$label}
-turret-controls-window-all-checkbox = All
+turret-controls-window-all-checkbox = Все
 
-# Flavor
-turret-controls-window-footer = Unauthorized personnel should ensure defenses are inactive before proceeding
+# Дополнительная информация
+turret-controls-window-footer = Неуполномоченному персоналу следует отключить оборону перед продолжением
 
-# Warnings
-turret-controls-access-denied = Access denied
+# Предупреждения
+turret-controls-access-denied = Доступ запрещён

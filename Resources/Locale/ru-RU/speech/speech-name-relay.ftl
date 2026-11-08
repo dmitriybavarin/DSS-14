@@ -1,2 +1,2 @@
-# used by camera microphones and hand-held radios
+# используется камерами с микрофонами и портативными рациями
 speech-name-relay = {$speaker} ({$originalName})

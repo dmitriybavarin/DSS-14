@@ -74,8 +74,6 @@
 - type: entity
   parent: BaseAction
   id: ActionScream
-  name: Scream
-  description: AAAAAAAAAAAAAAAAAAAAAAAAA
   components:
   - type: Action
     useDelay: 10
@@ -269,8 +267,6 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
   components:
   - type: Action
     priority: -100

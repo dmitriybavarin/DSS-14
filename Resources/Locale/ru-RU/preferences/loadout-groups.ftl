@@ -1,216 +1,216 @@
-# Errors
-loadout-group-species-restriction = This item is not available for your current species.
+# Ошибки
+loadout-group-species-restriction = Этот предмет недоступен для вашего текущего вида.
 
-# Miscellaneous
-loadout-group-trinkets = Trinkets
-loadout-group-jobtrinkets = Job trinkets
-loadout-group-assistive-items = Assistive items
-loadout-group-glasses = Glasses
-loadout-group-backpack = Backpack
-loadout-group-instruments = Instruments
-loadout-group-survival-basic = Survival box
-loadout-group-survival-extended = Extended survival box
-loadout-group-survival-clown = Clown survival box
-loadout-group-survival-medical = Medical survival box
-loadout-group-survival-security = Security survival box
-loadout-group-survival-syndicate = Github is forcing me to write text that is literally twice-impossible for the player to ever see, send help
-loadout-group-survival-military = See line 14, no one will ever see this so :3
-loadout-group-breath-tool = Species-dependent breath tools
-loadout-group-tank-harness = Species-specific survival equipment
-loadout-group-EVA-tank = Species-specific gas tank
-loadout-group-vox-tank = Vox-specific gas tank
-loadout-group-pocket-tank-double = Species-specific double emergency tank in pocket
-loadout-group-survival-mime = Mime survival box
+# Разное
+loadout-group-trinkets = Безделушки
+loadout-group-jobtrinkets = Профессиональные безделушки
+loadout-group-assistive-items = Вспомогательные предметы
+loadout-group-glasses = Очки
+loadout-group-backpack = Рюкзак
+loadout-group-instruments = Инструменты
+loadout-group-survival-basic = Базальный набор для выживания
+loadout-group-survival-extended = Расширенный набор для выживания
+loadout-group-survival-clown = Набор клоуна для выживания
+loadout-group-survival-medical = Медицинский набор для выживания
+loadout-group-survival-security = Набор службы безопасности для выживания
+loadout-group-survival-syndicate = GitHub заставляет меня писать текст, который игрок буквально ни при каких обстоятельствах не сможет увидеть. На помощь!
+loadout-group-survival-military = См. строку 14. Никто никогда этого не увидит, так что :3
+loadout-group-breath-tool = Дыхательные устройства в зависимости от вида
+loadout-group-tank-harness = Снаряжение для выживания в зависимости от вида
+loadout-group-EVA-tank = Газовый баллон в зависимости от вида
+loadout-group-vox-tank = Газовый баллон для воксов
+loadout-group-pocket-tank-double = Двойной аварийный баллон для кармана в зависимости от вида
+loadout-group-survival-mime = Набор мима для выживания
 
-# Command
-loadout-group-captain-head = Captain head
-loadout-group-captain-jumpsuit = Captain jumpsuit
-loadout-group-captain-neck = Captain neck
-loadout-group-captain-backpack = Captain backpack
-loadout-group-captain-outerclothing = Captain outer clothing
+# Командование
+loadout-group-captain-head = Головной убор капитана
+loadout-group-captain-jumpsuit = Комбинезон капитана
+loadout-group-captain-neck = Аксессуар на шею капитана
+loadout-group-captain-backpack = Рюкзак капитана
+loadout-group-captain-outerclothing = Верхняя одежда капитана
 
-loadout-group-hop-head = Head of Personnel head
-loadout-group-hop-jumpsuit = Head of Personnel jumpsuit
-loadout-group-hop-neck = Head of Personnel neck
-loadout-group-hop-backpack = Head of Personnel backpack
-loadout-group-hop-outerclothing = Head of Personnel outer clothing
+loadout-group-hop-head = Головной убор главы персонала
+loadout-group-hop-jumpsuit = Комбинезон главы персонала
+loadout-group-hop-neck = Аксессуар на шею главы персонала
+loadout-group-hop-backpack = Рюкзак главы персонала
+loadout-group-hop-outerclothing = Верхняя одежда главы персонала
 
-# Civilian
-loadout-group-passenger-jumpsuit = Passenger jumpsuit
-loadout-group-passenger-mask = Passenger mask
-loadout-group-passenger-gloves = Passenger gloves
-loadout-group-passenger-outerclothing = Passenger outer clothing
-loadout-group-passenger-shoes = Passenger shoes
-loadout-group-passenger-neck = Passenger neck
+# Гражданские
+loadout-group-passenger-jumpsuit = Комбинезон пассажира
+loadout-group-passenger-mask = Маска пассажира
+loadout-group-passenger-gloves = Перчатки пассажира
+loadout-group-passenger-outerclothing = Верхняя одежда пассажира
+loadout-group-passenger-shoes = Обувь пассажира
+loadout-group-passenger-neck = Аксессуар на шею пассажира
 
-loadout-group-bartender-head = Bartender head
-loadout-group-bartender-jumpsuit = Bartender jumpsuit
-loadout-group-bartender-outerclothing = Bartender outer clothing
-loadout-group-bartender-shaker = Bartender shaker
+loadout-group-bartender-head = Головной убор бармена
+loadout-group-bartender-jumpsuit = Комбинезон бармена
+loadout-group-bartender-outerclothing = Верхняя одежда бармена
+loadout-group-bartender-shaker = Шейкер бармена
 
-loadout-group-chef-head = Chef head
-loadout-group-chef-mask = Chef mask
-loadout-group-chef-jumpsuit = Chef jumpsuit
-loadout-group-chef-outerclothing = Chef outer clothing
+loadout-group-chef-head = Головной убор повара
+loadout-group-chef-mask = Маска повара
+loadout-group-chef-jumpsuit = Комбинезон повара
+loadout-group-chef-outerclothing = Верхняя одежда повара
 
-loadout-group-librarian-jumpsuit = Librarian jumpsuit
+loadout-group-librarian-jumpsuit = Комбинезон библиотекаря
 
-loadout-group-lawyer-jumpsuit = Lawyer jumpsuit
-loadout-group-lawyer-neck = Lawyer neck
+loadout-group-lawyer-jumpsuit = Комбинезон адвоката
+loadout-group-lawyer-neck = Аксессуар на шею адвоката
 
-loadout-group-chaplain-head = Chaplain head
-loadout-group-chaplain-mask = Chaplain mask
-loadout-group-chaplain-jumpsuit = Chaplain jumpsuit
-loadout-group-chaplain-outerclothing = Chaplain outer clothing
-loadout-group-chaplain-neck = Chaplain neck
-loadout-group-chaplain-shoes = Chaplain shoes
-loadout-group-chaplain-bible = Holy Book
+loadout-group-chaplain-head = Головной убор священника
+loadout-group-chaplain-mask = Маска священника
+loadout-group-chaplain-jumpsuit = Комбинезон священника
+loadout-group-chaplain-outerclothing = Верхняя одежда священника
+loadout-group-chaplain-neck = Аксессуар на шею священника
+loadout-group-chaplain-shoes = Обувь священника
+loadout-group-chaplain-bible = Священная книга
 
-loadout-group-janitor-head = Janitor head
-loadout-group-janitor-jumpsuit = Janitor jumpsuit
-loadout-group-janitor-gloves = Janitor gloves
-loadout-group-janitor-outerclothing = Janitor outer clothing
-loadout-group-janitor-plunger = Janitor plunger
+loadout-group-janitor-head = Головной убор уборщика
+loadout-group-janitor-jumpsuit = Комбинезон уборщика
+loadout-group-janitor-gloves = Перчатки уборщика
+loadout-group-janitor-outerclothing = Верхняя одежда уборщика
+loadout-group-janitor-plunger = Вантуз уборщика
 
-loadout-group-botanist-head = Botanist head
-loadout-group-botanist-jumpsuit = Botanist jumpsuit
-loadout-group-botanist-backpack = Botanist backpack
-loadout-group-botanist-outerclothing = Botanist outer clothing
+loadout-group-botanist-head = Головной убор ботаника
+loadout-group-botanist-jumpsuit = Комбинезон ботаника
+loadout-group-botanist-backpack = Рюкзак ботаника
+loadout-group-botanist-outerclothing = Верхняя одежда ботаника
 
-loadout-group-clown-head = Clown head
-loadout-group-clown-jumpsuit = Clown jumpsuit
-loadout-group-clown-backpack = Clown backpack
-loadout-group-clown-outerclothing = Clown outer clothing
-loadout-group-clown-shoes = Clown shoes
+loadout-group-clown-head = Головной убор клоуна
+loadout-group-clown-jumpsuit = Комбинезон клоуна
+loadout-group-clown-backpack = Рюкзак клоуна
+loadout-group-clown-outerclothing = Верхняя одежда клоуна
+loadout-group-clown-shoes = Обувь клоуна
 
-loadout-group-mime-head = Mime head
-loadout-group-mime-mask = Mime mask
-loadout-group-mime-jumpsuit = Mime jumpsuit
-loadout-group-mime-backpack = Mime backpack
-loadout-group-mime-outerclothing = Mime outer clothing
-loadout-group-mime-belt = Mime belt
+loadout-group-mime-head = Головной убор мима
+loadout-group-mime-mask = Маска мима
+loadout-group-mime-jumpsuit = Комбинезон мима
+loadout-group-mime-backpack = Рюкзак мима
+loadout-group-mime-outerclothing = Верхняя одежда мима
+loadout-group-mime-belt = Пояс мима
 
-loadout-group-musician-jumpsuit = Musician jumpsuit
-loadout-group-musician-outerclothing = Musician outer clothing
+loadout-group-musician-jumpsuit = Комбинезон музыканта
+loadout-group-musician-outerclothing = Верхняя одежда музыканта
 
-# Cargo
-loadout-group-quartermaster-head = Quartermaster head
-loadout-group-quartermaster-jumpsuit = Quartermaster jumpsuit
-loadout-group-quartermaster-neck = Quartermaster neck
-loadout-group-quartermaster-outerclothing = Quartermaster outer clothing
-loadout-group-quartermaster-shoes = Quartermaster shoes
+# Снабжение
+loadout-group-quartermaster-head = Головной убор квартирмейстера
+loadout-group-quartermaster-jumpsuit = Комбинезон квартирмейстера
+loadout-group-quartermaster-neck = Аксессуар на шею квартирмейстера
+loadout-group-quartermaster-outerclothing = Верхняя одежда квартирмейстера
+loadout-group-quartermaster-shoes = Обувь квартирмейстера
 
-loadout-group-cargo-technician-head = Cargo Technician head
-loadout-group-cargo-technician-jumpsuit = Cargo Technician jumpsuit
-loadout-group-cargo-technician-backpack = Cargo Technician backpack
-loadout-group-cargo-technician-outerclothing = Cargo Technician outer clothing
-loadout-group-cargo-technician-shoes = Cargo Technician shoes
-loadout-group-cargo-technician-id = Cargo Technician ID
+loadout-group-cargo-technician-head = Головной убор грузчика
+loadout-group-cargo-technician-jumpsuit = Комбинезон грузчика
+loadout-group-cargo-technician-backpack = Рюкзак грузчика
+loadout-group-cargo-technician-outerclothing = Верхняя одежда грузчика
+loadout-group-cargo-technician-shoes = Обувь грузчика
+loadout-group-cargo-technician-id = ID-карта грузчика
 
-loadout-group-salvage-specialist-backpack = Salvage Specialist backpack
-loadout-group-salvage-specialist-outerclothing = Salvage Specialist outer clothing
-loadout-group-salvage-specialist-shoes = Salvage Specialist shoes
+loadout-group-salvage-specialist-backpack = Рюкзак утилизатора
+loadout-group-salvage-specialist-outerclothing = Верхняя одежда утилизатора
+loadout-group-salvage-specialist-shoes = Обувь утилизатора
 
-# Engineering
-loadout-group-chief-engineer-head = Chief Engineer head
-loadout-group-chief-engineer-jumpsuit = Chief Engineer jumpsuit
-loadout-group-chief-engineer-outerclothing = Chief Engineer outer clothing
-loadout-group-chief-engineer-neck = Chief Engineer neck
-loadout-group-chief-engineer-shoes = Chief Engineer shoes
+# Инженерный отдел
+loadout-group-chief-engineer-head = Головной убор старшего инженера
+loadout-group-chief-engineer-jumpsuit = Комбинезон старшего инженера
+loadout-group-chief-engineer-outerclothing = Верхняя одежда старшего инженера
+loadout-group-chief-engineer-neck = Аксессуар на шею старшего инженера
+loadout-group-chief-engineer-shoes = Обувь старшего инженера
 
-loadout-group-technical-assistant-jumpsuit = Technical Assistant jumpsuit
+loadout-group-technical-assistant-jumpsuit = Комбинезон технического ассистента
 
-loadout-group-station-engineer-head = Station Engineer head
-loadout-group-station-engineer-jumpsuit = Station Engineer jumpsuit
-loadout-group-station-engineer-backpack = Station Engineer backpack
-loadout-group-station-engineer-outerclothing = Station Engineer outer clothing
-loadout-group-station-engineer-shoes = Station Engineer shoes
-loadout-group-station-engineer-id = Station Engineer ID
+loadout-group-station-engineer-head = Головной убор станционного инженера
+loadout-group-station-engineer-jumpsuit = Комбинезон станционного инженера
+loadout-group-station-engineer-backpack = Рюкзак станционного инженера
+loadout-group-station-engineer-outerclothing = Верхняя одежда станционного инженера
+loadout-group-station-engineer-shoes = Обувь станционного инженера
+loadout-group-station-engineer-id = ID-карта станционного инженера
 
-loadout-group-atmospheric-technician-jumpsuit = Atmospheric Technician jumpsuit
-loadout-group-atmospheric-technician-backpack = Atmospheric Technician backpack
-loadout-group-atmospheric-technician-outerclothing = Atmospheric Technician outer clothing
-loadout-group-atmospheric-technician-shoes = Atmospheric Technician shoes
+loadout-group-atmospheric-technician-jumpsuit = Комбинезон атмосферного техника
+loadout-group-atmospheric-technician-backpack = Рюкзак атмосферного техника
+loadout-group-atmospheric-technician-outerclothing = Верхняя одежда атмосферного техника
+loadout-group-atmospheric-technician-shoes = Обувь атмосферного техника
 
-# Science
-loadout-group-research-director-head = Research Director head
-loadout-group-research-director-neck = Research Director neck
-loadout-group-research-director-jumpsuit = Research Director jumpsuit
-loadout-group-research-director-outerclothing = Research Director outer clothing
-loadout-group-research-director-shoes = Research Director shoes
+# Научный отдел
+loadout-group-research-director-head = Головной убор научного руководителя
+loadout-group-research-director-neck = Аксессуар на шею научного руководителя
+loadout-group-research-director-jumpsuit = Комбинезон научного руководителя
+loadout-group-research-director-outerclothing = Верхняя одежда научного руководителя
+loadout-group-research-director-shoes = Обувь научного руководителя
 
-loadout-group-scientist-head = Scientist head
-loadout-group-scientist-neck = Scientist neck
-loadout-group-scientist-jumpsuit = Scientist jumpsuit
-loadout-group-scientist-backpack = Scientist backpack
-loadout-group-scientist-outerclothing = Scientist outer clothing
-loadout-group-scientist-gloves = Scientist gloves
-loadout-group-scientist-shoes = Scientist shoes
-loadout-group-scientist-id = Scientist ID
+loadout-group-scientist-head = Головной убор учёного
+loadout-group-scientist-neck = Аксессуар на шею учёного
+loadout-group-scientist-jumpsuit = Комбинезон учёного
+loadout-group-scientist-backpack = Рюкзак учёного
+loadout-group-scientist-outerclothing = Верхняя одежда учёного
+loadout-group-scientist-gloves = Перчатки учёного
+loadout-group-scientist-shoes = Обувь учёного
+loadout-group-scientist-id = ID-карта учёного
 
-loadout-group-research-assistant-jumpsuit = Research Assistant jumpsuit
+loadout-group-research-assistant-jumpsuit = Комбинезон научного ассистента
 
-# Security
-loadout-group-head-of-security-head = Head of Security head
-loadout-group-head-of-security-jumpsuit = Head of Security jumpsuit
-loadout-group-head-of-security-neck = Head of Security neck
-loadout-group-head-of-security-outerclothing = Head of Security outer clothing
+# Служба безопасности
+loadout-group-head-of-security-head = Головной убор главы службы безопасности
+loadout-group-head-of-security-jumpsuit = Комбинезон главы службы безопасности
+loadout-group-head-of-security-neck = Аксессуар на шею главы службы безопасности
+loadout-group-head-of-security-outerclothing = Верхняя одежда главы службы безопасности
 
-loadout-group-warden-head = Warden head
-loadout-group-warden-jumpsuit = Warden jumpsuit
-loadout-group-warden-outerclothing = Warden outer clothing
+loadout-group-warden-head = Головной убор смотрителя
+loadout-group-warden-jumpsuit = Комбинезон смотрителя
+loadout-group-warden-outerclothing = Верхняя одежда смотрителя
 
-loadout-group-security-head = Security head
-loadout-group-security-jumpsuit = Security jumpsuit
-loadout-group-security-backpack = Security backpack
-loadout-group-security-belt = Security belt
-loadout-group-security-outerclothing = Security outer clothing
-loadout-group-security-shoes = Security shoes
-loadout-group-security-id = Security ID
+loadout-group-security-head = Головной убор сотрудника службы безопасности
+loadout-group-security-jumpsuit = Комбинезон сотрудника службы безопасности
+loadout-group-security-backpack = Рюкзак сотрудника службы безопасности
+loadout-group-security-belt = Пояс сотрудника службы безопасности
+loadout-group-security-outerclothing = Верхняя одежда сотрудника службы безопасности
+loadout-group-security-shoes = Обувь сотрудника службы безопасности
+loadout-group-security-id = ID-карта сотрудника службы безопасности
 
-loadout-group-detective-head = Detective head
-loadout-group-detective-neck = Detective neck
-loadout-group-detective-jumpsuit = Detective jumpsuit
-loadout-group-detective-outerclothing = Detective outer clothing
+loadout-group-detective-head = Головной убор детектива
+loadout-group-detective-neck = Аксессуар на шею детектива
+loadout-group-detective-jumpsuit = Комбинезон детектива
+loadout-group-detective-outerclothing = Верхняя одежда детектива
 
-loadout-group-security-cadet-jumpsuit = Security cadet jumpsuit
-loadout-group-security-star = Security Star
+loadout-group-security-cadet-jumpsuit = Комбинезон кадета службы безопасности
+loadout-group-security-star = Звезда службы безопасности
 
-# Medical
-loadout-group-medical-mask = Medical mask
+# Медицинский отдел
+loadout-group-medical-mask = Медицинская маска
 
-loadout-group-chief-medical-officer-head = Chief Medical Officer head
-loadout-group-chief-medical-officer-jumpsuit = Chief Medical Officer jumpsuit
-loadout-group-chief-medical-officer-outerclothing = Chief Medical Officer outer clothing
-loadout-group-chief-medical-officer-shoes = Chief Medical Officer shoes
-loadout-group-chief-medical-officer-neck = Chief Medical Officer neck
+loadout-group-chief-medical-officer-head = Головной убор главного врача
+loadout-group-chief-medical-officer-jumpsuit = Комбинезон главного врача
+loadout-group-chief-medical-officer-outerclothing = Верхняя одежда главного врача
+loadout-group-chief-medical-officer-shoes = Обувь главного врача
+loadout-group-chief-medical-officer-neck = Аксессуар на шею главного врача
 
-loadout-group-medical-doctor-head = Medical Doctor head
-loadout-group-medical-doctor-jumpsuit = Medical Doctor jumpsuit
-loadout-group-medical-doctor-outerclothing = Medical Doctor outer clothing
-loadout-group-medical-doctor-backpack = Medical Doctor backpack
-loadout-group-medical-doctor-shoes = Medical Doctor shoes
-loadout-group-medical-doctor-id = Medical Doctor ID
+loadout-group-medical-doctor-head = Головной убор врача
+loadout-group-medical-doctor-jumpsuit = Комбинезон врача
+loadout-group-medical-doctor-outerclothing = Верхняя одежда врача
+loadout-group-medical-doctor-backpack = Рюкзак врача
+loadout-group-medical-doctor-shoes = Обувь врача
+loadout-group-medical-doctor-id = ID-карта врача
 
-loadout-group-medical-intern-jumpsuit = Medical intern jumpsuit
+loadout-group-medical-intern-jumpsuit = Комбинезон медицинского интерна
 
-loadout-group-chemist-jumpsuit = Chemist jumpsuit
-loadout-group-chemist-outerclothing = Chemist outer clothing
-loadout-group-chemist-backpack = Chemist backpack
+loadout-group-chemist-jumpsuit = Комбинезон химика
+loadout-group-chemist-outerclothing = Верхняя одежда химика
+loadout-group-chemist-backpack = Рюкзак химика
 
-loadout-group-paramedic-head = Paramedic head
-loadout-group-paramedic-jumpsuit = Paramedic jumpsuit
-loadout-group-paramedic-outerclothing = Paramedic outer clothing
-loadout-group-paramedic-shoes = Paramedic shoes
+loadout-group-paramedic-head = Головной убор парамедика
+loadout-group-paramedic-jumpsuit = Комбинезон парамедика
+loadout-group-paramedic-outerclothing = Верхняя одежда парамедика
+loadout-group-paramedic-shoes = Обувь парамедика
 
-# Wildcards
-loadout-group-reporter-jumpsuit = Reporter jumpsuit
-loadout-group-reporter-head = Reporter hat
-loadout-group-reporter-outerclothing = Reporter vest
+# Универсальные профессии
+loadout-group-reporter-jumpsuit = Комбинезон репортёра
+loadout-group-reporter-head = Шляпа репортёра
+loadout-group-reporter-outerclothing = Жилет репортёра
 
-loadout-group-psychologist-jumpsuit = Psychologist jumpsuit
+loadout-group-psychologist-jumpsuit = Комбинезон психолога
 
-loadout-group-tramdriver-jumpsuit = Tram driver jumpsuit
-loadout-group-tramdriver-outerclothing = Tram driver suit
-loadout-group-tramdriver-hat = Tram driver hat
-loadout-group-tramdriver-gloves = Tram driver gloves
+loadout-group-tramdriver-jumpsuit = Комбинезон водителя трамвая
+loadout-group-tramdriver-outerclothing = Костюм водителя трамвая
+loadout-group-tramdriver-hat = Шляпа водителя трамвая
+loadout-group-tramdriver-gloves = Перчатки водителя трамвая

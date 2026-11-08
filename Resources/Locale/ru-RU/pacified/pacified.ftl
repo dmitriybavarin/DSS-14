@@ -1,13 +1,12 @@
+## Сообщения для умиротворённых игроков при попытке совершить насилие:
 
-## Messages shown to Pacified players when they try to do violence:
+# Метательные снаряды:
+pacified-cannot-throw = Я не могу заставить себя бросить { THE($projectile) }, ведь это может кого-нибудь ранить!
+# Метательные снаряды с эффектом внедрения:
+pacified-cannot-throw-embed = Я ни за что не смогу бросить { THE($projectile) }, ведь он может застрять в ком-нибудь!
+# Метательные снаряды с жидкостью:
+pacified-cannot-throw-spill = Я не могу бросить { THE($projectile) }, ведь из него на кого-нибудь может пролиться что-то мерзкое!
 
-# With projectiles:
-pacified-cannot-throw = I can't bring myself to throw { THE($projectile) }, that could hurt someone!
-# With embedding projectiles:
-pacified-cannot-throw-embed = No way I could throw { THE($projectile) }, that could get lodged inside someone!
-# With liquid-spilling projectiles:
-pacified-cannot-throw-spill = I can't possibly throw { THE($projectile) }, that could spill nasty stuff on someone!
-
-pacified-cannot-harm-directly = I can't bring myself to hurt { THE($entity) }!
-pacified-cannot-harm-indirect = I can't damage { THE($entity) }, it could hurt someone!
-pacified-cannot-fire-gun = I can't fire { THE($entity) }, it could hurt someone!
+pacified-cannot-harm-directly = Я не могу заставить себя причинить вред { THE($entity) }!
+pacified-cannot-harm-indirect = Я не могу повредить { THE($entity) }, ведь это может кого-нибудь ранить!
+pacified-cannot-fire-gun = Я не могу выстрелить из { THE($entity) }, ведь это может кого-нибудь ранить!

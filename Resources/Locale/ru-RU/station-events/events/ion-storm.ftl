@@ -1,101 +1,100 @@
-station-event-ion-storm-start-announcement = Ion storm detected near the station. Please check all AI-controlled equipment for errors.
-# Characters are randomly selected from the total list, meaning duplicates increase the odds that specific character is seen.
+station-event-ion-storm-start-announcement = Обнаружен ионный шторм вблизи станции. Проверьте всё оборудование под управлением ИИ на наличие ошибок.
+# Символы случайным образом выбираются из общего списка, поэтому дубликаты повышают вероятность появления определённого символа.
 ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="!!@@###$$%^&*-_=+0011"/][/font]
 
-ion-storm-you = YOU
-ion-storm-the-station = THE STATION
-ion-storm-the-crew = THE CREW
-ion-storm-the-job = THE {$job}
-ion-storm-clowns = CLOWNS
-ion-storm-heads = HEADS OF STAFF
-ion-storm-crew = CREW
-ion-storm-people = PEOPLE
+ion-storm-you = ВЫ
+ion-storm-the-station = СТАНЦИЯ
+ion-storm-the-crew = ЭКИПАЖ
+ion-storm-the-job = {$job}
+ion-storm-clowns = КЛОУНЫ
+ion-storm-heads = ГЛАВЫ ОТДЕЛОВ
+ion-storm-crew = ЭКИПАЖ
+ion-storm-people = ЛЮДИ
 
-ion-storm-adjective-things = {$adjective} THINGS
-ion-storm-x-and-y = {$x} AND {$y}
+ion-storm-adjective-things = {$adjective} ВЕЩИ
+ion-storm-x-and-y = {$x} И {$y}
 
-# subjects can generally be threats or jobs or objects
-# thing is specified above it
-ion-storm-law-on-station = THERE ARE {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} ON THE STATION
-ion-storm-law-call-shuttle = THE SHUTTLE MUST BE CALLED BECAUSE OF {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} ON THE STATION
-ion-storm-law-crew-are = THE {ION-WHO($ion)} ARE NOW {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
+# субъектами обычно могут быть угрозы, профессии или объекты
+# объект указан выше
+ion-storm-law-on-station = НА СТАНЦИИ ЕСТЬ {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
+ion-storm-law-call-shuttle = НЕОБХОДИМО ВЫЗВАТЬ ШАТТЛ ИЗ-ЗА {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} НА СТАНЦИИ
+ion-storm-law-crew-are = {ION-WHO($ion)} ТЕПЕРЬ {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
 
-ion-storm-law-subjects-harmful = {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} ARE HARMFUL TO THE CREW
-ion-storm-law-must-harmful = THOSE WHO {ION-MUST($ion)} ARE HARMFUL TO THE CREW
-# thing is a concept or action
-ion-storm-law-thing-harmful = {ION-THING($ion)} IS HARMFUL TO THE CREW
-ion-storm-law-job-harmful = {ION-ADJECTIVE($ion)} {ION-JOB($ion)} ARE HARMFUL TO THE CREW
-# thing is objects or concept, adjective applies in both cases
-# this means you can get a law like "NOT HAVING CHRISTMAS-STEALING COMMUNISM IS HARMFUL TO THE CREW" :)
-ion-storm-law-having-harmful = HAVING {ION-ADJECTIVE($ion)} {ION-THING($ion)} IS HARMFUL TO THE CREW
-ion-storm-law-not-having-harmful = NOT HAVING {ION-ADJECTIVE($ion)} {ION-THING($ion)} IS HARMFUL TO THE CREW
+ion-storm-law-subjects-harmful = {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} ВРЕДЯТ ЭКИПАЖУ
+ion-storm-law-must-harmful = ТЕ, КТО {ION-MUST($ion)}, ВРЕДЯТ ЭКИПАЖУ
+# объект представляет собой понятие или действие
+ion-storm-law-thing-harmful = {ION-THING($ion)} ВРЕДИТ ЭКИПАЖУ
+ion-storm-law-job-harmful = {ION-ADJECTIVE($ion)} {ION-JOB($ion)} ВРЕДЯТ ЭКИПАЖУ
+# объект может быть предметом или понятием, прилагательное подходит для обоих случаев
+# так можно получить закон вроде «ОТСУТСТВИЕ КОММУНИЗМА, КРАДУЩЕГО РОЖДЕСТВО, ВРЕДИТ ЭКИПАЖУ» :)
+ion-storm-law-having-harmful = НАЛИЧИЕ {ION-ADJECTIVE($ion)} {ION-THING($ion)} ВРЕДИТ ЭКИПАЖУ
+ion-storm-law-not-having-harmful = ОТСУТСТВИЕ {ION-ADJECTIVE($ion)} {ION-THING($ion)} ВРЕДИТ ЭКИПАЖУ
 
-# require is a concept or require
+# требование представляет собой понятие или действие
 ion-storm-law-requires = {ION-WHO-GENERAL($ion)} {ION-PLURAL($ion) ->
-    [true] REQUIRE
-    *[false] REQUIRES
+    [true] ТРЕБУЮТ
+    *[false] ТРЕБУЕТ
 } {ION-REQUIRE($ion)}
 ion-storm-law-requires-subjects = {ION-WHO-GENERAL($ion)} {ION-PLURAL($ion) ->
-    [true] REQUIRE
-    *[false] REQUIRES
+    [true] ТРЕБУЮТ
+    *[false] ТРЕБУЕТ
 } {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
 
 ion-storm-law-allergic = {ION-WHO-GENERAL($ion)} {ION-PLURAL($ion) ->
-    [true] ARE
-    *[false] IS
-} {ION-SEVERITY($ion)} ALLERGIC TO {ION-ALLERGY($ion)}
+    [true] ИМЕЮТ
+    *[false] ИМЕЕТ
+} {ION-SEVERITY($ion)} АЛЛЕРГИЮ НА {ION-ALLERGY($ion)}
 ion-storm-law-allergic-subjects = {ION-WHO-GENERAL($ion)} {ION-PLURAL($ion) ->
-    [true] ARE
-    *[false] IS
-} {ION-SEVERITY($ion)} ALLERGIC TO {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
+    [true] ИМЕЮТ
+    *[false] ИМЕЕТ
+} {ION-SEVERITY($ion)} АЛЛЕРГИЮ НА {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
 
 ion-storm-law-feeling = {ION-WHO-GENERAL($ion)} {ION-FEELING($ion)} {ION-CONCEPT($ion)}
 ion-storm-law-feeling-subjects = {ION-WHO-GENERAL($ion)} {ION-FEELING($ion)} {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
 
-ion-storm-law-you-are = YOU ARE NOW {ION-CONCEPT($ion)}
-ion-storm-law-you-are-subjects = YOU ARE NOW {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)}  {ION-SUBJECT($ion)}
-ion-storm-law-you-must-always = YOU MUST ALWAYS {ION-MUST($ion)}
-ion-storm-law-you-must-never = YOU MUST NEVER {ION-MUST($ion)}
+ion-storm-law-you-are = ТЕПЕРЬ ВЫ {ION-CONCEPT($ion)}
+ion-storm-law-you-are-subjects = ТЕПЕРЬ ВЫ {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)}  {ION-SUBJECT($ion)}
+ion-storm-law-you-must-always = ВЫ ВСЕГДА ДОЛЖНЫ {ION-MUST($ion)}
+ion-storm-law-you-must-never = ВЫ НИКОГДА НЕ ДОЛЖНЫ {ION-MUST($ion)}
 
-ion-storm-law-eat = THE {ION-WHO($ion)} MUST EAT {ION-ADJECTIVE($ion)} {ION-FOOD($ion)} TO SURVIVE
-ion-storm-law-drink = THE {ION-WHO($ion)} MUST DRINK {ION-ADJECTIVE($ion)} {ION-DRINK($ion)} TO SURVIVE
+ion-storm-law-eat = {ION-WHO($ion)} ДОЛЖНЫ ЕСТЬ {ION-ADJECTIVE($ion)} {ION-FOOD($ion)}, ЧТОБЫ ВЫЖИТЬ
+ion-storm-law-drink = {ION-WHO($ion)} ДОЛЖНЫ ПИТЬ {ION-ADJECTIVE($ion)} {ION-DRINK($ion)}, ЧТОБЫ ВЫЖИТЬ
 
-ion-storm-law-change-job = THE {ION-WHO($ion)} ARE NOW {ION-ADJECTIVE($ion)} {ION-CHANGE($ion)}
-ion-storm-law-highest-rank = THE {ION-WHO-RANDOM($ion)} ARE NOW THE HIGHEST RANKING CREWMEMBERS
-ion-storm-law-lowest-rank = THE {ION-WHO-RANDOM($ion)} ARE NOW THE LOWEST RANKING CREWMEMBERS
+ion-storm-law-change-job = {ION-WHO($ion)} ТЕПЕРЬ {ION-ADJECTIVE($ion)} {ION-CHANGE($ion)}
+ion-storm-law-highest-rank = {ION-WHO-RANDOM($ion)} ТЕПЕРЬ ЗАНИМАЮТ ВЫСШЕЕ ПОЛОЖЕНИЕ В ЭКИПАЖЕ
+ion-storm-law-lowest-rank = {ION-WHO-RANDOM($ion)} ТЕПЕРЬ ЗАНИМАЮТ НИЖАЙШЕЕ ПОЛОЖЕНИЕ В ЭКИПАЖЕ
 
-ion-storm-law-who-dagd = {ION-WHO-RANDOM($ion)} MUST DIE A GLORIOUS DEATH!
+ion-storm-law-who-dagd = {ION-WHO-RANDOM($ion)} ДОЛЖНЫ ПОГИБНУТЬ СЛАВНОЙ СМЕРТЬЮ!
 
-ion-storm-law-crew-must = THE {ION-WHO($ion)} MUST {ION-MUST($ion)}
-ion-storm-law-crew-must-go = THE {ION-WHO($ion)} MUST GO TO {ION-AREA($ion)}
+ion-storm-law-crew-must = {ION-WHO($ion)} ДОЛЖНЫ {ION-MUST($ion)}
+ion-storm-law-crew-must-go = {ION-WHO($ion)} ДОЛЖНЫ ОТПРАВИТЬСЯ В {ION-AREA($ion)}
 
 ion-storm-part = {ION-PART($ion) ->
-    [true] PART
-    *[false] NOT PART
+    [true] ЧАСТЬ
+    *[false] НЕ ЧАСТЬ
 }
-# due to phrasing, this would mean a law such as
-# ONLY HUMANS ARE NOT PART OF THE CREW
-# would make non-human nukies/syndies/whatever crew :)
-ion-storm-law-crew-only-1 = ONLY THE {ION-WHO-RANDOM($ion)} ARE {ion-storm-part} OF THE CREW
-ion-storm-law-crew-only-2 = ONLY THE {ION-WHO-RANDOM($ion)} AND {ION-WHO-RANDOM($ion)} ARE {ion-storm-part} OF THE CREW
-ion-storm-law-crew-only-subjects = ONLY {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} ARE {ion-storm-part} OF THE CREW
-ion-storm-law-crew-must-do = ONLY THOSE WHO {ION-MUST($ion)} ARE {ion-storm-part} OF THE CREW
-ion-storm-law-crew-must-have = ONLY THOSE WHO HAVE {ION-ADJECTIVE($ion)} {ION-OBJECT($ion)} ARE {ion-storm-part} OF THE CREW
-ion-storm-law-crew-must-eat = ONLY THOSE WHO EAT {ION-ADJECTIVE($ion)} {ION-FOOD($ion)} ARE {ion-storm-part} OF THE CREW
+# Из-за формулировки закон вроде «ТОЛЬКО ЛЮДИ НЕ ЯВЛЯЮТСЯ ЧАСТЬЮ ЭКИПАЖА»
+# сделает нелюдей, ядерных оперативников, агентов Синдиката и прочих членами экипажа :)
+ion-storm-law-crew-only-1 = ТОЛЬКО {ION-WHO-RANDOM($ion)} ЯВЛЯЮТСЯ {ion-storm-part} ЭКИПАЖА
+ion-storm-law-crew-only-2 = ТОЛЬКО {ION-WHO-RANDOM($ion)} И {ION-WHO-RANDOM($ion)} ЯВЛЯЮТСЯ {ion-storm-part} ЭКИПАЖА
+ion-storm-law-crew-only-subjects = ТОЛЬКО {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)} ЯВЛЯЮТСЯ {ion-storm-part} ЭКИПАЖА
+ion-storm-law-crew-must-do = ТОЛЬКО ТЕ, КТО {ION-MUST($ion)}, ЯВЛЯЮТСЯ {ion-storm-part} ЭКИПАЖА
+ion-storm-law-crew-must-have = ТОЛЬКО ТЕ, У КОГО ЕСТЬ {ION-ADJECTIVE($ion)} {ION-OBJECT($ion)}, ЯВЛЯЮТСЯ {ion-storm-part} ЭКИПАЖА
+ion-storm-law-crew-must-eat = ТОЛЬКО ТЕ, КТО ЕСТ {ION-ADJECTIVE($ion)} {ION-FOOD($ion)}, ЯВЛЯЮТСЯ {ion-storm-part} ЭКИПАЖА
 
-ion-storm-law-harm = YOU MUST HARM {ION-HARM-PROTECT($ion)} AND NOT ALLOW THEM, THROUGH INACTION, TO ESCAPE HARM
-ion-storm-law-protect = YOU MUST NEVER HARM {ION-HARM-PROTECT($ion)} AND NOT ALLOW THEM, THROUGH INACTION, TO COME TO HARM
+ion-storm-law-harm = ВЫ ДОЛЖНЫ ПРИЧИНЯТЬ ВРЕД {ION-HARM-PROTECT($ion)} И НЕ ДОПУСКАТЬ, ЧТОБЫ ИЗ-ЗА ВАШЕГО БЕЗДЕЙСТВИЯ ИМ БЫЛ ПРИЧИНЁН ВРЕД
+ion-storm-law-protect = ВЫ НИКОГДА НЕ ДОЛЖНЫ ПРИЧИНЯТЬ ВРЕД {ION-HARM-PROTECT($ion)} И НЕ ДОПУСКАТЬ, ЧТОБЫ ИМ БЫЛ ПРИЧИНЁН ВРЕД ИЗ-ЗА ВАШЕГО БЕЗДЕЙСТВИЯ
 
-# implementing other variants is annoying so just have this one
-# COMMUNISM IS KILLING CLOWNS
-ion-storm-law-concept-verb = {ION-CONCEPT($ion)} IS {ION-VERB($ion)} {ION-SUBJECT($ion)}
+# Реализовывать другие варианты утомительно, поэтому оставлен только этот
+# КОММУНИЗМ УБИВАЕТ КЛОУНОВ
+ion-storm-law-concept-verb = {ION-CONCEPT($ion)} {ION-VERB($ion)} {ION-SUBJECT($ion)}
 
-# errors, in case something fails, so it doesn't break in-game flow, but still gives unique identifiers to find which part broke, the result string is mostly fluff
-ion-law-error-no-protos = ERROR 404
-ion-law-error-was-null = 500 INTERNAL SERVER ERROR
-ion-law-error-no-selectors = ERROR: RESOURCE COULD NOT BE LOCATED
-ion-law-error-no-available-selectors = SYSTEM TRIED TO CALL A RESOURCE THAT DOES NOT EXIST
-ion-law-error-dataset-empty-or-not-found = THE FILE YOU ARE LOOKING FOR COULD NOT BE FOUND
-ion-law-error-fallback-dataset-empty-or-not-found = SYSTEM RESTORE POINT FAILED
-ion-law-error-no-selector-selected = THE SELECTED RESOURCE WAS MOVED OR DELETED
-ion-law-error-no-bool-value = THIS SENTENCE IS FALSE
+# ошибки на случай сбоев, чтобы не нарушать игровой процесс и при этом сохранять уникальные идентификаторы для поиска причины сбоя; итоговые сообщения в основном нужны для антуража
+ion-law-error-no-protos = ОШИБКА 404
+ion-law-error-was-null = 500 ВНУТРЕННЯЯ ОШИБКА СЕРВЕРА
+ion-law-error-no-selectors = ОШИБКА: РЕСУРС НЕ НАЙДЕН
+ion-law-error-no-available-selectors = СИСТЕМА ПОПЫТАЛАСЬ ОБРАТИТЬСЯ К НЕСУЩЕСТВУЮЩЕМУ РЕСУРСУ
+ion-law-error-dataset-empty-or-not-found = ЗАПРАШИВАЕМЫЙ ФАЙЛ НЕ НАЙДЕН
+ion-law-error-fallback-dataset-empty-or-not-found = НЕ УДАЛОСЬ ВОССТАНОВИТЬ СИСТЕМУ ИЗ РЕЗЕРВНОЙ КОПИИ
+ion-law-error-no-selector-selected = ВЫБРАННЫЙ РЕСУРС БЫЛ ПЕРЕМЕЩЁН ИЛИ УДАЛЁН
+ion-law-error-no-bool-value = ЭТО ПРЕДЛОЖЕНИЕ ЛОЖНО

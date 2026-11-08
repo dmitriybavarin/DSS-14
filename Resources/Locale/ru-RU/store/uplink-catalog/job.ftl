@@ -1,44 +1,44 @@
-# Job
+# Профессии
 
-uplink-gatfruit-seeds-name = Packet Of Gatfruit Seeds
-uplink-gatfruit-seeds-desc = And who says guns don't grow on trees?
+uplink-gatfruit-seeds-name = Пакет семян оружейного фрукта
+uplink-gatfruit-seeds-desc = И кто сказал, что оружие не растёт на деревьях?
 
-uplink-holy-hand-grenade-name = Holy Hand Grenade
-uplink-holy-hand-grenade-desc = O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
+uplink-holy-hand-grenade-name = Святая ручная граната
+uplink-holy-hand-grenade-desc = О Господи, благослови эту ручную гранату Твою, дабы с её помощью разнести врагов Твоих на мелкие кусочки по милости Твоей.
 
-uplink-revolver-cap-gun-fake-name = Fake Cap Gun
-uplink-revolver-cap-gun-fake-desc = Fool your enemy! It can use both cap and magnum bullets. Comes loaded with magnum bullets.
+uplink-revolver-cap-gun-fake-name = Поддельный пистолет с пистонами
+uplink-revolver-cap-gun-fake-desc = Обмани врага! Стреляет как пистонами, так и магнум-патронами. Заряжен магнум-патронами.
 
-uplink-cluster-banana-peel-name = Cluster Banana
-uplink-cluster-banana-peel-desc = Splits into 6 explosive banana peels after being thrown, the peels detonate automatically after 20 seconds if nobody slips on them.
+uplink-cluster-banana-peel-name = Кластерный банан
+uplink-cluster-banana-peel-desc = После броска распадается на 6 взрывных банановых шкурок. Если никто на них не поскользнётся, через 20 секунд шкурки взорвутся автоматически.
 
-uplink-holoclown-kit-name = Holoclown Kit
-uplink-holoclown-kit-desc = A joint venture between Cybersun and Honk.co. Contains an injector that hosts a sentient metaphysical clown made of hard light which resides in the user's body when not active.
-    The holoclown has pockets to store things, a hardlight hand it can manipulate the environment with and is immune to hazardous environments while being resistant to direct trauma, but shares any damage it takes with the user.
+uplink-holoclown-kit-name = Набор голографического клоуна
+uplink-holoclown-kit-desc = Совместная разработка Cybersun и Honk.co. Содержит инъектор с разумным метафизическим клоуном из твёрдого света, который находится в теле пользователя, пока не активирован.
+    У голографического клоуна есть карманы для хранения предметов и рука из твёрдого света, позволяющая взаимодействовать с окружением. Он невосприимчив к опасным условиям среды и устойчив к прямым повреждениям, но весь получаемый им урон передаётся пользователю.
 
-uplink-hot-potato-name = Hot Potato
-uplink-hot-potato-desc = Once activated, this time bomb can't be dropped - only passed to someone else!
+uplink-hot-potato-name = Горячая картошка
+uplink-hot-potato-desc = После активации эту бомбу замедленного действия нельзя выбросить. Её можно только передать кому-нибудь другому!
 
-uplink-chimp-upgrade-kit-name = C.H.I.M.P. Handcannon Upgrade Chip
-uplink-chimp-upgrade-kit-desc = Insert this chip into a standard C.H.I.M.P. handcannon to allow it to fire omega particles. Omega particles inflict severe burns and cause anomalies to go supercritical.
+uplink-chimp-upgrade-kit-name = Микросхема улучшения ручной пушки C.H.I.M.P.
+uplink-chimp-upgrade-kit-desc = Вставьте эту микросхему в стандартную ручную пушку C.H.I.M.P., чтобы она могла стрелять омега-частицами. Омега-частицы вызывают сильные ожоги и доводят аномалии до сверхкритического состояния.
 
-uplink-proximity-mine-name = Proximity Mine
-uplink-proximity-mine-desc = A throwable mine disguised as a wet floor sign. Detonates on contact with almost anything, safety always off.
+uplink-proximity-mine-name = Мина близости
+uplink-proximity-mine-desc = Метательная мина, замаскированная под знак «Мокрый пол». Взрывается при контакте почти с чем угодно. Предохранитель всегда отключён.
 
-uplink-syndicate-sponge-box-name = Syndicate Sponge Box
-uplink-syndicate-sponge-box-desc = A box containing 6 syndicate sponges disguised as monkey cubes, these cubes turn into a variety of angry wildlife after coming into contact with water.
+uplink-syndicate-sponge-box-name = Коробка губок Синдиката
+uplink-syndicate-sponge-box-desc = Коробка с 6 губками Синдиката, замаскированными под кубики обезьян. При контакте с водой кубики превращаются в самых разных разъярённых диких животных.
 
-uplink-cane-blade-name = Cane Blade
-uplink-cane-blade-desc = A cane that has a hidden blade that can be unsheathed.
+uplink-cane-blade-name = Трость-клинок
+uplink-cane-blade-desc = Трость со скрытым клинком, который можно извлечь.
 
-uplink-combat-bakery-name = Combat Bakery Kit
-uplink-combat-bakery-desc = A kit of clandestine baked weapons. Contains a baguette sword, a pair of throwing croissants, and a syndicate microwave board for making more. Once the job is done, eat the evidence.
+uplink-combat-bakery-name = Набор боевой выпечки
+uplink-combat-bakery-desc = Набор тайного оружия из выпечки. Включает багет-меч, пару метательных круассанов и микроволновую плату Синдиката для изготовления новых изделий. Когда работа будет закончена, съешьте улики.
 
-uplink-acolyte-armor-name = Acolyte Armor
-uplink-acolyte-armor-desc = The must have of any self respecting cult leader. An evil looking piece of armor, made of bones, and surprisingly resistant to damage.
+uplink-acolyte-armor-name = Доспехи аколита
+uplink-acolyte-armor-desc = Обязательный атрибут любого уважающего себя лидера культа. Зловещие на вид доспехи из костей, на удивление устойчивые к повреждениям.
 
-uplink-saw-advanced-name = Advanced Circular Saw
-uplink-saw-advanced-desc = A bleeding-edge surgical implement designed to cut through flesh and bone alike.
+uplink-saw-advanced-name = Улучшенная циркулярная пила
+uplink-saw-advanced-desc = Передовой хирургический инструмент, способный прорезать как плоть, так и кости.
 
-uplink-briefcase-gun-name = Briefcase Gun
-uplink-briefcase-gun-desc = An indistinct briefcase with a highly compact C-20K mounted inside it. Careful not the grip the handle too tight!
+uplink-briefcase-gun-name = Пистолет-чемодан
+uplink-briefcase-gun-desc = Неприметный чемодан со встроенным компактным C-20K. Осторожнее, не сжимайте ручку слишком сильно!

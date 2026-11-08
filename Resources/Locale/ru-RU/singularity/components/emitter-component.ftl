@@ -1,14 +1,14 @@
 ### EmitterComponent
 
-# Shows when attempting to turn the emitter on or off without proper access
-comp-emitter-access-locked = The {$target} is access locked!
+# Отображается при попытке включить или выключить эмиттер без должного доступа
+comp-emitter-access-locked = Доступ к {$target} заблокирован!
 
-# Shows when turning the emitter on/off
-# Shows if the user attempts to activate the emitter while it's un-anchored.
+# Отображается при включении и выключении эмиттера
+# Отображается, если пользователь пытается активировать эмиттер, пока он не закреплён.
 
-emitter-component-type-set = Type set to: {$type}
+emitter-component-type-set = Тип установлен: {$type}
 
-emitter-destroyed-broadcast = A powered emitter {$location} has been destroyed.
-emitter-unlocked-broadcast = A powered emitter {$location} has been unlocked.
-emitter-unpowered-broadcast = A powered emitter {$location} has lost power.
-emitter-turn-off-broadcast = A powered emitter {$location} was turned off.
+emitter-destroyed-broadcast = Запитанный эмиттер {$location} был уничтожен.
+emitter-unlocked-broadcast = Запитанный эмиттер {$location} был разблокирован.
+emitter-unpowered-broadcast = Запитанный эмиттер {$location} потерял питание.
+emitter-turn-off-broadcast = Запитанный эмиттер {$location} был выключен.

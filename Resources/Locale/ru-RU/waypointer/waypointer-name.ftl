@@ -1,4 +1,4 @@
-waypointer-name-station = Station Waypointer
-waypointer-name-trade-station = Trade Station Waypointer
-waypointer-name-wreck = Wreck Waypointer
-waypointer-name-dragon-rift = Rift Waypointer
+waypointer-name-station = Указатель станции
+waypointer-name-trade-station = Указатель торговой станции
+waypointer-name-wreck = Указатель обломков
+waypointer-name-dragon-rift = Указатель разлома

@@ -1,1 +1,1 @@
-station-event-vendor-malfunction-announcement = Malfunction detected in our vending machine control systems. Please watch out for low-flying equipment.
+station-event-vendor-malfunction-announcement = В системах управления нашими торговыми автоматами обнаружена неисправность. Остерегайтесь низколетящего оборудования.

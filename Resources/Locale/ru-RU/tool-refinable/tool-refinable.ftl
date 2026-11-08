@@ -1,19 +1,19 @@
-refined-butchered-success = You slice {$target} with {$tool}.
-refined-butchered-success-others = {CAPITALIZE(THE($user))} sliced {$target} with their {$tool}.
-refined-slice-verb-message-default = Slice entity with sharp item.
-refined-slice-verb-target-isnt-dead = Needs to be dead.
-refined-slice-verb-message-tool = You are going to need a different tool to slice {$target}.
+refined-butchered-success = Вы разделываете {$target} с помощью инструмента «{$tool}».
+refined-butchered-success-others = {CAPITALIZE(THE($user))} разделал {$target} с помощью инструмента «{$tool}».
+refined-slice-verb-message-default = Разрезать объект острым предметом.
+refined-slice-verb-target-isnt-dead = Цель должна быть мертва.
+refined-slice-verb-message-tool = Чтобы разрезать {$target}, вам понадобится другой инструмент.
 
-refined-screwed-success = You disassemble {$target} with {$tool}.
-refined-screwed-success-others = {CAPITALIZE(THE($user))} disassembled {$target} with their {$tool}.
-refined-screwed-verb-message-default = Unscrew and disassembled the entity.
-refined-screwed-verb-message-tool = You need a different tool to unscrew {$target}.
+refined-screwed-success = Вы разбираете {$target} с помощью инструмента «{$tool}».
+refined-screwed-success-others = {CAPITALIZE(THE($user))} разобрал {$target} с помощью инструмента «{$tool}».
+refined-screwed-verb-message-default = Открутить крепления и разобрать объект.
+refined-screwed-verb-message-tool = Чтобы разобрать {$target}, вам понадобится другой инструмент.
 
-refined-slice-verb-name = Slice
-refined-screw-verb-name = Screw
-refined-butchered-verb-name = Butcher
+refined-slice-verb-name = Разрезать
+refined-screw-verb-name = Разобрать
+refined-butchered-verb-name = Разделать
 
-tool-refinable-component-hint = {CAPITALIZE(SUBJECT($target))} can be refined by [color=cyan]{$quality}[/color].
-tool-refinable-component-hint-slicing = {CAPITALIZE(SUBJECT($target))} can be cut with a [color=cyan]{$quality}[/color] tool.
-tool-refinable-component-hint-butchering = {CAPITALIZE(SUBJECT($target))} can be butchered with a [color=cyan]{$quality}[/color] tool.
-tool-refinable-component-hint-screwing = {CAPITALIZE(SUBJECT($target))} can be disassembled with a [color=cyan]{$quality}[/color] tool.
+tool-refinable-component-hint = {CAPITALIZE(SUBJECT($target))} можно обработать инструментом с качеством [color=cyan]{$quality}[/color].
+tool-refinable-component-hint-slicing = {CAPITALIZE(SUBJECT($target))} можно разрезать инструментом с качеством [color=cyan]{$quality}[/color].
+tool-refinable-component-hint-butchering = {CAPITALIZE(SUBJECT($target))} можно разделать инструментом с качеством [color=cyan]{$quality}[/color].
+tool-refinable-component-hint-screwing = {CAPITALIZE(SUBJECT($target))} можно разобрать инструментом с качеством [color=cyan]{$quality}[/color].

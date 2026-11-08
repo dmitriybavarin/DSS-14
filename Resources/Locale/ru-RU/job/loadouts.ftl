@@ -1,3 +1,3 @@
-loadout-window = Комплект снаряжения
+loadout-window = Снаряжения
 loadout-none = Нет
-loadout-window-title-loadout = Комплект снаряжения { $job }
+loadout-window-title-loadout = Снаряжение { $job }

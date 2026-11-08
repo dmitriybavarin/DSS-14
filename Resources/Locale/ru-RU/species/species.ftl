@@ -1,18 +1,18 @@
-## Species Names
+## Названия видов
 
-species-name-human = Human
-species-name-dwarf = Dwarf
-species-name-reptilian = Reptilian
-species-name-slime = Slime Person
-species-name-diona = Diona
-species-name-arachnid = Arachnid
-species-name-moth = Moth Person
-species-name-skeleton = Skeleton
-species-name-vox = Vox
-species-name-gingerbread = delicious baked good
-species-name-vulpkanin = Vulpkanin
-species-name-horror = Shambling abomination
+species-name-human = Человек
+species-name-dwarf = Дварф
+species-name-reptilian = Рептилоид
+species-name-slime = Слаймолюд
+species-name-diona = Диона
+species-name-arachnid = Арахнид
+species-name-moth = Человек-моль
+species-name-skeleton = Скелет
+species-name-vox = Вокс
+species-name-gingerbread = вкусная выпечка
+species-name-vulpkanin = Вульпканин
+species-name-horror = Шатающаяся мерзость
 
-## Misc species things
+## Прочее о видах
 
-snail-hurt-by-salt-popup = The salty solution burns like acid!
+snail-hurt-by-salt-popup = Солёный раствор жжёт, как кислота!
