@@ -1,8 +1,297 @@
-
 {
     "version": "2.0.0",
     "tasks": [
-
+        {
+            "label": "⭐ Сборка DEV (Debug)",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "-c",
+                "Debug",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:ForceNoAlign;NoSummary"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": "$msCompile",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Сборка RELEASE",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "-c",
+                "Release",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:ForceNoAlign;NoSummary"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": "$msCompile",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Сервер DEV (Debug)",
+            "detail": "Собирает и запускает локальный сервер в Debug",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.Server/Content.Server.csproj",
+                "-c",
+                "Debug"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Клиент DEV (Debug)",
+            "detail": "Собирает и запускает клиент в Debug",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.Client/Content.Client.csproj",
+                "-c",
+                "Debug"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Сервер + Клиент DEV",
+            "detail": "Запускает сервер и клиент одновременно",
+            "dependsOn": [
+                "⭐ Сервер DEV (Debug)",
+                "⭐ Клиент DEV (Debug)"
+            ],
+            "dependsOrder": "parallel",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Сервер RELEASE",
+            "detail": "Собирает и запускает локальный сервер в Release",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.Server/Content.Server.csproj",
+                "-c",
+                "Release"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Клиент RELEASE",
+            "detail": "Собирает и запускает клиент в Release",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.Client/Content.Client.csproj",
+                "-c",
+                "Release"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Сервер + Клиент RELEASE",
+            "detail": "Запускает сервер и клиент одновременно в Release",
+            "dependsOn": [
+                "⭐ Сервер RELEASE",
+                "⭐ Клиент RELEASE"
+            ],
+            "dependsOrder": "parallel",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Проверка перевода (en-US → ru-RU)",
+            "detail": "Каких ключей нет в ru-RU",
+            "type": "process",
+            "command": "python",
+            "args": [
+                "Tools/_dss14_locale_check.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Проверка перевода (плоский список)",
+            "type": "process",
+            "command": "python",
+            "args": [
+                "Tools/_dss14_locale_check.py",
+                "--flat",
+                "--hide-extra"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Проверка перевода (только _DSS14)",
+            "type": "process",
+            "command": "python",
+            "args": [
+                "Tools/_dss14_locale_check.py",
+                "--only-dss14"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ YAML линтер",
+            "detail": "Проверка прототипов",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.YAMLLinter/Content.YAMLLinter.csproj",
+                "-c",
+                "Debug"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Проверка CRLF",
+            "type": "process",
+            "command": "python",
+            "args": [
+                "Tools/check_crlf.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Тесты (Content.Tests)",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "test",
+                "-c",
+                "Debug",
+                "Content.Tests/Content.Tests.csproj",
+                "--",
+                "NUnit.ConsoleOut=0"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": "$msCompile",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "⭐ Все проверки",
+            "detail": "Перевод _DSS14, YAML, CRLF по очереди",
+            "dependsOn": [
+                "⭐ Проверка перевода (только _DSS14)",
+                "⭐ YAML линтер",
+                "⭐ Проверка CRLF"
+            ],
+            "dependsOrder": "sequence",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
         {
             "label": "build",
             "command": "dotnet",
@@ -21,33 +310,6 @@
                 "panel": "shared"
             },
             "problemMatcher": "$msCompile",
-            "runOptions": {
-                "instanceLimit": 1
-            }
-        },
-        {
-            "label": "Собрать + Запустить локальный сервер (DEV)",
-            "dependsOn": [
-                "build"
-            ],
-            "dependsOrder": "sequence",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "run",
-                "--no-build",
-                "--project",
-                "${workspaceFolder}/Content.Server/Content.Server.csproj"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "dedicated",
-                "clear": false
-            },
-            "problemMatcher": [],
             "runOptions": {
                 "instanceLimit": 1
             }
