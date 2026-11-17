@@ -1,6 +1,8 @@
 ### Общие слова и выражения, используемые в различных контекстах
 
 generic-not-available-shorthand = Н/Д
+generic-article-a = { "" }
+generic-article-an = { "" }
 
 generic-and = и
 generic-or = или

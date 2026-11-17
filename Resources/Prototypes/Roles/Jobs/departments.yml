@@ -87,8 +87,8 @@
   weight: 20 # Raised priority compared to most other crew departments
   roles:
   - HeadOfSecurity
-  - SecurityCadet
   - SecurityOfficer
+  - SecurityCadet
   - Detective
   - Warden
 

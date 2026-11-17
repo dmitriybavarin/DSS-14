@@ -10,8 +10,8 @@ verb-self-target-pronoun = Себя
 # Категории действий и распространённые действия. Они используются в разных системах,
 # поэтому их удобно хранить здесь.
 
-verb-categories-admin = Администрирование
-verb-categories-debug = Отладка
+verb-categories-admin = Админ
+verb-categories-debug = Дебаг
 verb-categories-examine = Осмотреть
 verb-categories-eject = Извлечь
 verb-categories-insert = Вставить

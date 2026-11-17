@@ -1,0 +1,2 @@
+ent-BaseRoomMarker = спавнер комнаты
+

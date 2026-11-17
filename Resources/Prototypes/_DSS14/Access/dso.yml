@@ -84,3 +84,11 @@
   - Atmospherics
   - GenpopEnter
   - GenpopLeave
+
+- type: accessLevel
+  id: NTRepresentative
+  name: id-card-access-level-nt-representative
+
+- type: accessLevel
+  id: BlueshieldOfficer
+  name: id-card-access-level-blueshield-officer

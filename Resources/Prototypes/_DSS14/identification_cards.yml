@@ -53,3 +53,53 @@
   - type: StealTarget
     stealGroup:
     - CaptainIDCard
+
+- type: entity
+  parent: [IDCardStandard, BaseGrandTheftContraband]
+  id: NTRepresentativeIDCard
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: stripe_top
+      color: "#134975"
+    - state: stripe_bottom
+      color: "#0d304d"
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Nanotrasen
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTRepresentative
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+    - HighRiskItem
+
+- type: entity
+  parent: [IDCardStandard, BaseGrandTheftContraband]
+  id: BlueshieldOfficerIDCard
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: stripe_top
+      color: "#134975"
+    - state: stripe_bottom
+      color: "#0d304d"
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Nanotrasen
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: BlueshieldOfficer
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+    - HighRiskItem

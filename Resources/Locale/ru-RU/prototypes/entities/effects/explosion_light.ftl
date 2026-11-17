@@ -1,0 +1,2 @@
+ent-ExplosionLight = свет взрыва
+

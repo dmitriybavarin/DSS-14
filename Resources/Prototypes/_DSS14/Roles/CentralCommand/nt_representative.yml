@@ -1,0 +1,38 @@
+- type: job
+  id: NTRepresentative
+  name: job-name-ntrepresentative
+  description: job-description-ntrepresentative
+  playTimeTracker: JobNTRepresentative
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 100h
+  startingGear: NTRepresentativeGear
+  icon: "JobIconNanotrasen"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  - NTRepresentative
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CommandStaff
+
+- type: startingGear
+  id: NTRepresentativeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsLaceup
+    head: ClothingHeadHatCentcom
+    eyes: ClothingEyesGlassesCommand
+    gloves: ClothingHandsGlovesColorBlack
+    id: NTRepresentativePDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: BoxFolderCentComClipboardThreePapers
+    pocket2: PenCentcom

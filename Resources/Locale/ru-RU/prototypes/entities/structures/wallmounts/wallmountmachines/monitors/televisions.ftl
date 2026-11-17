@@ -1,0 +1,6 @@
+ent-WallmountTelevision = телевизор
+    .desc = Наконец-то приличный приём в этих краях...
+
+ent-WallmountTelevisionFrame = каркас телевизора
+    .desc = О, плоский экран. Но это всего лишь каркас...
+

@@ -1,0 +1,18 @@
+ent-MachineParticleAcceleratorEndCapCircuitboard = плата торцевой крышки УЧ
+    .desc = Плата машины для торцевой крышки ускорителя частиц.
+
+ent-MachineParticleAcceleratorFuelChamberCircuitboard = плата топливной камеры УЧ
+    .desc = Плата машины для топливной камеры ускорителя частиц.
+
+ent-MachineParticleAcceleratorPowerBoxCircuitboard = плата блока питания УЧ
+    .desc = Плата машины для блока питания ускорителя частиц.
+
+ent-MachineParticleAcceleratorEmitterStarboardCircuitboard = плата правого эмиттера УЧ
+    .desc = Плата машины для левого эмиттера ускорителя частиц.
+
+ent-MachineParticleAcceleratorEmitterForeCircuitboard = плата носового эмиттера УЧ
+    .desc = Плата машины для центрального эмиттера ускорителя частиц.
+
+ent-MachineParticleAcceleratorEmitterPortCircuitboard = плата левого эмиттера УЧ
+    .desc = Плата машины для правого эмиттера ускорителя частиц.
+

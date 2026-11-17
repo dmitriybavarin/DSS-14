@@ -1,6 +1,6 @@
-action-name-internals-toggle-on = Включить дыхательную маску
+action-name-internals-toggle-on = Подключить баллон
 action-description-internals-toggle-on = Дышать из подключённого газового баллона. Также необходимо надеть дыхательную маску.
-action-name-internals-toggle-off = Отключить дыхательную маску
+action-name-internals-toggle-off = Отключить баллон
 action-description-internals-toggle-off = Дышать окружающим воздухом.
 
 internals-self-no-breath-tool = На вас не надето дыхательное устройство

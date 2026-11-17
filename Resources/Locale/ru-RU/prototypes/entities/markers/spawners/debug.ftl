@@ -1,0 +1,2 @@
+ent-SpawnMobHuman = спавнер Уриста
+

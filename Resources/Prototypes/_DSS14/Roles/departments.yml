@@ -1,0 +1,9 @@
+- type: department
+  id: DSSCentralCommand
+  name: department-DSSCentralCommand
+  description: department-DSSCentralCommand-description
+  color: "#0c344d"
+  weight: 130
+  roles:
+  - NTRepresentative
+  - BlueshieldOfficer

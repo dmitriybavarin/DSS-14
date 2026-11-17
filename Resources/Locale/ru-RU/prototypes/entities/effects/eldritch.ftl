@@ -1,0 +1,2 @@
+ent-EffectVoidBlink = скачок пустоты
+

@@ -1,0 +1,13 @@
+- type: entity
+  parent: CentcomPDA
+  id: NTRepresentativePDA
+  components:
+  - type: Pda
+    id: NTRepresentativeIDCard
+
+- type: entity
+  parent: CentcomPDA
+  id: BlueshieldOfficerPDA
+  components:
+  - type: Pda
+    id: BlueshieldOfficerIDCard

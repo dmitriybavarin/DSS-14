@@ -1,0 +1,2 @@
+ent-BaseMachineCircuitboard = плата машины
+

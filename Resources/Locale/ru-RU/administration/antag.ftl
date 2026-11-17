@@ -1,4 +1,4 @@
-verb-categories-antag = Управление антагонистами
+verb-categories-antag = Антаги
 admin-verb-make-traitor = Сделать цель предателем.
 admin-verb-make-initial-infected = Сделать цель первым заражённым.
 admin-verb-make-zombie = Немедленно превратить цель в зомби.

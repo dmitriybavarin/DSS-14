@@ -1,0 +1,41 @@
+- type: job
+  id: BlueshieldOfficer
+  name: job-name-blueshieldofficer
+  description: job-description-blueshieldofficer
+  playTimeTracker: JobBlueshieldOfficer
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 20h
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 10h
+  startingGear: BlueshieldOfficerGear
+  icon: "JobIconNanotrasen"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  accessGroups:
+  - AllAccess
+  access:
+  - BlueshieldOfficer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CommandStaff
+
+- type: startingGear
+  id: BlueshieldOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsCombatFilled
+    head: ClothingHeadHelmetSwat
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBulletproof
+    belt: ClothingBeltSecurity
+    id: BlueshieldOfficerPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: Flash

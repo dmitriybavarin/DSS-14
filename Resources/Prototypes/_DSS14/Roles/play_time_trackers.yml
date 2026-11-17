@@ -1,0 +1,8 @@
+- type: playTimeTracker
+  id: JobSpecialOperationsDepartmentDirector
+
+- type: playTimeTracker
+  id: JobNTRepresentative
+
+- type: playTimeTracker
+  id: JobBlueshieldOfficer

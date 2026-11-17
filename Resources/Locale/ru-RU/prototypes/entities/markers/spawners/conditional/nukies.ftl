@@ -1,0 +1,2 @@
+ent-SpawnPointNukies = ядерные оперативники
+
